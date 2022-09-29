@@ -1,0 +1,106 @@
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: left; 
+    background-color: black;
+    color: white;
+    column-gap:20px;
+    
+
+  }
+  
+  .wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+body{
+    background-color: black;
+}
+  h1{
+      text-align: center;
+  }
+  .main {
+    border:2px solid;
+    border-radius:25px;
+    text-align: left;
+    background: whitesmoke;
+    color: black;
+    height: 600px;
+  }
+  .cursiva{
+      font-style: italic;
+  }
+  .aside-1 {
+    border:2px solid;
+    border-radius:25px;
+    background: whitesmoke;
+    color: black;
+    height: 600px;
+  }
+  
+  .aside-2 {
+    border:2px solid;
+    border-radius:25px;
+    background: whitesmoke;
+    color: black;
+    height: 600px;
+  }
+ #listaDerecha{
+     list-style: none;
+ }
+  @media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+  }
+  
+  @media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+  }
+  
+
+  .menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    
+    list-style: none;
+    margin: 0; 
+    background: black;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color:white;
+  }
+  
+  .menu a:hover {
+    background: grey;
+  }
+  
+  @media all and (max-width: 800px) {
+    .menu {
+      justify-content: left;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .menu {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .menu a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .menu li:last-of-type a {
+      border-bottom: none;
+    }
+  }

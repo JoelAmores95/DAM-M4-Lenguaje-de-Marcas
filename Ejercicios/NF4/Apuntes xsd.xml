@@ -1,0 +1,59 @@
+<!--Apuntes XSD-->
+
+<!-- La primera línea siempre va a ser la misma que en xml-->
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Seguidamente se pone la definiciÓn del schema-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!--En el xml, para vincular el xsd con el xml hacemos uso de lo siguiente:-->
+<nombreElemento xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:SchemaLocation="Ejercicio1 Schema.xsd"> <!--Esta siemore es igual-->
+
+<!--Los elementos individuales llevan la etiqueta xs:-->
+<xs:element name="nombreElementoXML">
+
+<!--Los atributos llevan la etiqueta xs:-->
+<xs:attribute name="nombreAtributoXML">
+
+<!--Los elementos simples, solo son uno, llevan la etiqueta xs:-->
+<xs:simpleType name="nombreElementoXML">
+
+<!--Los elementos compuestos o complejos llevan la etiqueta xs:-->
+<xs:complexType name="nombreElementoXML">
+
+<!--Caracterisitcas del elemento
+
+<xs:element
+	name=”nombre del elemento” -> OBLIGADO
+	type=”tipo global de datos” -> OBLIGADO
+	ref=”declaración del elemento global”
+	id=”identificador”
+	form=”cualificación” 
+	minOccurs=”número mínimo de veces”
+	maxOccurs=”máximo número de veces”
+	default=”valor por defecto”
+	fixed=”valor fijo”
+>
+-->
+
+<!-- Para unir la definición de varios elementos simples se usa:-->
+<xs:simpleType name="mes">
+    <xs:union memberTypes="xs:dia"/> <!--Cierro con / al final porque no voy a ponerle nada más-->
+</xs:simpleType>
+
+<!--Restricciones en los elementos-->
+<!--Dentro de cada elemento, podemos añadir restricciones que el validador comprobará-->
+<xs:simpleType name="elementoPrueba">
+    <xs:restriction type="String">
+    <!--Los diferentes tipos de restricciones son-->
+
+    <!--Strings y o números-->
+    <xs:minLength value= "2"/> <!--CIERRO AL FINAL DE CADA RESTRICCIÓN-->
+    <xs:maxLength value="100"/>
+    <xs:length value="9"/> <!--Indica una longitud exacta del String o número-->
+    
+    <!--EXCLUSIVO de números-->
+    <xs:totalDigits value="2"/>
+
+    continurá........... o no

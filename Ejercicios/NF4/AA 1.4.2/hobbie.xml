@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Personajes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Esquema_hobbie.xsd">
+    <Tanques>
+        <Clase>Paladin</Clase>
+        <HP_Base>11000</HP_Base>
+        <DEF_Base>800</DEF_Base>
+        <Resistencia_Base>50</Resistencia_Base>
+        <ATQ_Base>500</ATQ_Base>
+    </Tanques>
+    <Tanques>
+        <Clase>Caballero Oscuro</Clase>
+        <HP_Base>13000</HP_Base>
+        <DEF_Base>750</DEF_Base>
+        <Resistencia_Base>30</Resistencia_Base>
+        <ATQ_Base>500</ATQ_Base>
+    </Tanques>
+    <Apoyo>
+        <Clase>Sanador</Clase>
+        <HP_Base>6000</HP_Base>
+        <DEF_Base>400</DEF_Base>
+        <Resistencia_Base>80</Resistencia_Base>
+        <ATQ_Base>300</ATQ_Base>
+    </Apoyo>
+    <Apoyo>
+        <Clase>Brujo</Clase>
+        <HP_Base>6000</HP_Base>
+        <DEF_Base>400</DEF_Base>
+        <Resistencia_Base>80</Resistencia_Base>
+        <ATQ_Base>300</ATQ_Base>
+    </Apoyo>
+    <Atacantes>
+        <Clase>Mago</Clase>
+        <HP_Base>7000</HP_Base>
+        <DEF_Base>450</DEF_Base>
+        <Resistencia_Base>80</Resistencia_Base>
+        <ATQ_Base>300</ATQ_Base>
+    </Atacantes>
+    <Atacantes>
+        <Clase>Guerrero</Clase>
+        <HP_Base>8000</HP_Base>
+        <DEF_Base>600</DEF_Base>
+        <Resistencia_Base>30</Resistencia_Base>
+        <ATQ_Base>900</ATQ_Base>
+    </Atacantes>
+    <Animales>
+        <Nombre>Tigre</Nombre>
+        <Rol_Compatible>Brujo</Rol_Compatible>
+    </Animales>
+    <Animales>
+        <Nombre>Pegaso</Nombre>
+        <Rol_Compatible>Paladin</Rol_Compatible>
+    </Animales>
+    <Animales>
+        <Nombre>Rinoceronte</Nombre>
+        <Rol_Compatible>Caballero Oscuro</Rol_Compatible>
+    </Animales>
+    <Animales>
+        <Nombre>Dríada</Nombre>
+        <Rol_Compatible>Sanador</Rol_Compatible>
+    </Animales>
+</Personajes>

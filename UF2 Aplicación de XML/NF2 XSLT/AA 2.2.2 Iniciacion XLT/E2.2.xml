@@ -1,0 +1,927 @@
+
+  <country languages="Turkic Pashtu Afghan Persian" cities="0">
+   <nom>Afghanistan</nom>
+   <poblacio>22664136</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Albania</nom>
+   <poblacio>3249136</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Algeria</nom>
+   <poblacio>29183032</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>American Samoa</nom>
+   <poblacio>59566</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Andorra</nom>
+   <poblacio>72766</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Angola</nom>
+   <poblacio>10342899</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Anguilla</nom>
+   <poblacio>10424</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Antigua and Barbuda</nom>
+   <poblacio>65647</poblacio>
+</country>
+  <country languages="" cities="4">
+   <nom>Argentina</nom>
+   <poblacio>34672996</poblacio>
+</country>
+  <country languages="Russian Armenian" cities="1">
+   <nom>Armenia</nom>
+   <poblacio>3463574</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Aruba</nom>
+   <poblacio>67794</poblacio>
+</country>
+  <country languages="English" cities="5">
+   <nom>Australia</nom>
+   <poblacio>18260864</poblacio>
+</country>
+  <country languages="German" cities="1">
+   <nom>Austria</nom>
+   <poblacio>8023244</poblacio>
+</country>
+  <country languages="Russian Armenian Azeri" cities="1">
+   <nom>Azerbaijan</nom>
+   <poblacio>7676953</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Bahamas</nom>
+   <poblacio>259367</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Bahrain</nom>
+   <poblacio>590042</poblacio>
+</country>
+  <country languages="" cities="2">
+   <nom>Bangladesh</nom>
+   <poblacio>123062800</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Barbados</nom>
+   <poblacio>257030</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Belarus</nom>
+   <poblacio>10415973</poblacio>
+</country>
+  <country languages="French German Dutch" cities="0">
+   <nom>Belgium</nom>
+   <poblacio>10170241</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Belize</nom>
+   <poblacio>219296</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Benin</nom>
+   <poblacio>5709529</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Bermuda</nom>
+   <poblacio>62099</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Bhutan</nom>
+   <poblacio>1822625</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Bolivia</nom>
+   <poblacio>7165257</poblacio>
+</country>
+  <country languages="Serbo-Croatian" cities="0">
+   <nom>Bosnia and Herzegovina</nom>
+   <poblacio>2656240</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Botswana</nom>
+   <poblacio>1477630</poblacio>
+</country>
+  <country languages="" cities="11">
+   <nom>Brazil</nom>
+   <poblacio>162661216</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>British Virgin Islands</nom>
+   <poblacio>13195</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Brunei</nom>
+   <poblacio>299939</poblacio>
+</country>
+  <country languages="Bulgarian" cities="1">
+   <nom>Bulgaria</nom>
+   <poblacio>8612757</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Burkina Faso</nom>
+   <poblacio>10623323</poblacio>
+</country>
+  <country languages="Burmese" cities="1">
+   <nom>Burma</nom>
+   <poblacio>45975624</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Burundi</nom>
+   <poblacio>5943057</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Cambodia</nom>
+   <poblacio>10861218</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Cameroon</nom>
+   <poblacio>14261557</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Canada</nom>
+   <poblacio>28820672</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Cape Verde</nom>
+   <poblacio>449066</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Cayman Islands</nom>
+   <poblacio>34646</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Central African Republic</nom>
+   <poblacio>3274426</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Chad</nom>
+   <poblacio>6976845</poblacio>
+</country>
+  <country languages="Spanish" cities="1">
+   <nom>Chile</nom>
+   <poblacio>14333258</poblacio>
+</country>
+  <country languages="" cities="41">
+   <nom>China</nom>
+   <poblacio>1210004992</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Christmas Island</nom>
+   <poblacio>813</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Cocos Islands</nom>
+   <poblacio>609</poblacio>
+</country>
+  <country languages="Spanish" cities="4">
+   <nom>Colombia</nom>
+   <poblacio>36813160</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Comoros</nom>
+   <poblacio>569237</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Congo</nom>
+   <poblacio>2527841</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Cook Islands</nom>
+   <poblacio>19561</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Costa Rica</nom>
+   <poblacio>3463083</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Cote dIvoire</nom>
+   <poblacio>14762445</poblacio>
+</country>
+  <country languages="Serbo-Croatian" cities="0">
+   <nom>Croatia</nom>
+   <poblacio>5004112</poblacio>
+</country>
+  <country languages="Spanish" cities="1">
+   <nom>Cuba</nom>
+   <poblacio>10951334</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Cyprus</nom>
+   <poblacio>744609</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Czech Republic</nom>
+   <poblacio>10321120</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Denmark</nom>
+   <poblacio>5249632</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Djibouti</nom>
+   <poblacio>427642</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Dominica</nom>
+   <poblacio>82926</poblacio>
+</country>
+  <country languages="Spanish" cities="1">
+   <nom>Dominican Republic</nom>
+   <poblacio>8088881</poblacio>
+</country>
+  <country languages="" cities="2">
+   <nom>Ecuador</nom>
+   <poblacio>11466291</poblacio>
+</country>
+  <country languages="" cities="3">
+   <nom>Egypt</nom>
+   <poblacio>63575108</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>El Salvador</nom>
+   <poblacio>5828987</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Equatorial Guinea</nom>
+   <poblacio>431282</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Eritrea</nom>
+   <poblacio>3427883</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Estonia</nom>
+   <poblacio>1459428</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Ethiopia</nom>
+   <poblacio>57171664</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Falkland Islands</nom>
+   <poblacio>2374</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Faroe Islands</nom>
+   <poblacio>43857</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Fiji</nom>
+   <poblacio>782381</poblacio>
+</country>
+  <country languages="Swedish Finnish" cities="0">
+   <nom>Finland</nom>
+   <poblacio>5105230</poblacio>
+</country>
+  <country languages="French" cities="1">
+   <nom>France</nom>
+   <poblacio>58317448</poblacio>
+</country>
+  <country languages="French" cities="0">
+   <nom>French Guiana</nom>
+   <poblacio>151187</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>French Polynesia</nom>
+   <poblacio>224911</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Gabon</nom>
+   <poblacio>1172798</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Gambia</nom>
+   <poblacio>1204984</poblacio>
+</country>
+  <country languages="Russian Armenian Azeri Georgian" cities="1">
+   <nom>Georgia</nom>
+   <poblacio>5219810</poblacio>
+</country>
+  <country languages="German" cities="4">
+   <nom>Germany</nom>
+   <poblacio>83536112</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Ghana</nom>
+   <poblacio>17698272</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Gibraltar</nom>
+   <poblacio>28765</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Greece</nom>
+   <poblacio>10538594</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Greenland</nom>
+   <poblacio>58203</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Grenada</nom>
+   <poblacio>94961</poblacio>
+</country>
+  <country languages="French" cities="0">
+   <nom>Guadeloupe</nom>
+   <poblacio>407768</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Guam</nom>
+   <poblacio>156974</poblacio>
+</country>
+  <country languages="Spanish Indian" cities="0">
+   <nom>Guatemala</nom>
+   <poblacio>11277614</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Guernsey</nom>
+   <poblacio>62920</poblacio>
+</country>
+  <country languages="French" cities="0">
+   <nom>Guinea</nom>
+   <poblacio>7411981</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Guinea-Bissau</nom>
+   <poblacio>1151330</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Guyana</nom>
+   <poblacio>712091</poblacio>
+</country>
+  <country languages="French" cities="0">
+   <nom>Haiti</nom>
+   <poblacio>6731539</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Holy See</nom>
+   <poblacio>840</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Honduras</nom>
+   <poblacio>5605193</poblacio>
+</country>
+  <country languages="Hungarian" cities="1">
+   <nom>Hungary</nom>
+   <poblacio>10002541</poblacio>
+</country>
+  <country languages="Icelandic" cities="0">
+   <nom>Iceland</nom>
+   <poblacio>270292</poblacio>
+</country>
+  <country languages="Hindi" cities="18">
+   <nom>India</nom>
+   <poblacio>952107712</poblacio>
+</country>
+  <country languages="" cities="6">
+   <nom>Indonesia</nom>
+   <poblacio>206611600</poblacio>
+</country>
+  <country languages="Turkish Baloch Kurdish Arabic Luri Persian Persian Turkic Turkic"
+         cities="5">
+   <nom>Iran</nom>
+   <poblacio>66094264</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Iraq</nom>
+   <poblacio>21422292</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Ireland</nom>
+   <poblacio>3566833</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Israel</nom>
+   <poblacio>5421995</poblacio>
+</country>
+  <country languages="" cities="3">
+   <nom>Italy</nom>
+   <poblacio>57460272</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Jamaica</nom>
+   <poblacio>2595275</poblacio>
+</country>
+  <country languages="Japanese" cities="11">
+   <nom>Japan</nom>
+   <poblacio>125449704</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Jersey</nom>
+   <poblacio>87848</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Jordan</nom>
+   <poblacio>4212152</poblacio>
+</country>
+  <country languages="Kazak" cities="1">
+   <nom>Kazakstan</nom>
+   <poblacio>16916464</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Kenya</nom>
+   <poblacio>28176686</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Kiribati</nom>
+   <poblacio>80919</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Kuwait</nom>
+   <poblacio>1950047</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Kyrgyzstan</nom>
+   <poblacio>4529648</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Laos</nom>
+   <poblacio>4975772</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Latvia</nom>
+   <poblacio>2468982</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Lebanon</nom>
+   <poblacio>3776317</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Lesotho</nom>
+   <poblacio>1970781</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Liberia</nom>
+   <poblacio>2109789</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Libya</nom>
+   <poblacio>5445436</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Liechtenstein</nom>
+   <poblacio>31122</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Lithuania</nom>
+   <poblacio>3646041</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Luxembourg</nom>
+   <poblacio>415870</poblacio>
+</country>
+  <country languages="Portuguese" cities="0">
+   <nom>Macau</nom>
+   <poblacio>496837</poblacio>
+</country>
+  <country languages="Albanian Macedonian Turkish Serbo-Croatian" cities="0">
+   <nom>Macedonia</nom>
+   <poblacio>2104035</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Madagascar</nom>
+   <poblacio>13670507</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Malawi</nom>
+   <poblacio>9452844</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Malaysia</nom>
+   <poblacio>19962892</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Maldives</nom>
+   <poblacio>270758</poblacio>
+</country>
+  <country languages="Bambara" cities="0">
+   <nom>Mali</nom>
+   <poblacio>9653261</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Malta</nom>
+   <poblacio>375576</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Man</nom>
+   <poblacio>73837</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Marshall Islands</nom>
+   <poblacio>58363</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Martinique</nom>
+   <poblacio>399151</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Mauritania</nom>
+   <poblacio>2336048</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Mauritius</nom>
+   <poblacio>1140256</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Mayotte</nom>
+   <poblacio>100838</poblacio>
+</country>
+  <country languages="" cities="5">
+   <nom>Mexico</nom>
+   <poblacio>95772464</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Micronesia</nom>
+   <poblacio>125377</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Moldova</nom>
+   <poblacio>4463847</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Monaco</nom>
+   <poblacio>31719</poblacio>
+</country>
+  <country languages="Khalkha Mongol" cities="0">
+   <nom>Mongolia</nom>
+   <poblacio>2496617</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Montserrat</nom>
+   <poblacio>12771</poblacio>
+</country>
+  <country languages="" cities="2">
+   <nom>Morocco</nom>
+   <poblacio>29779156</poblacio>
+</country>
+  <country languages="Portuguese" cities="0">
+   <nom>Mozambique</nom>
+   <poblacio>17877928</poblacio>
+</country>
+  <country languages="German English Afrikaans" cities="0">
+   <nom>Namibia</nom>
+   <poblacio>1677243</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Nauru</nom>
+   <poblacio>10273</poblacio>
+</country>
+  <country languages="Nepali" cities="0">
+   <nom>Nepal</nom>
+   <poblacio>22094032</poblacio>
+</country>
+  <country languages="Dutch" cities="2">
+   <nom>Netherlands</nom>
+   <poblacio>15568034</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Netherlands Antilles</nom>
+   <poblacio>208968</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>New Caledonia</nom>
+   <poblacio>187784</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>New Zealand</nom>
+   <poblacio>3547983</poblacio>
+</country>
+  <country languages="Spanish" cities="1">
+   <nom>Nicaragua</nom>
+   <poblacio>4272352</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Niger</nom>
+   <poblacio>9113001</poblacio>
+</country>
+  <country languages="" cities="2">
+   <nom>Nigeria</nom>
+   <poblacio>103912488</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Niue</nom>
+   <poblacio>2174</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Norfolk Island</nom>
+   <poblacio>2209</poblacio>
+</country>
+  <country languages="Korean" cities="1">
+   <nom>North Korea</nom>
+   <poblacio>23904124</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Northern Mariana Islands</nom>
+   <poblacio>52284</poblacio>
+</country>
+  <country languages="Norwegian" cities="0">
+   <nom>Norway</nom>
+   <poblacio>4383807</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Oman</nom>
+   <poblacio>2186548</poblacio>
+</country>
+  <country languages="Pashtu Urdu Punjabi Sindhi Balochi Hindko Brahui Siraiki"
+         cities="8">
+   <nom>Pakistan</nom>
+   <poblacio>129275664</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Palau</nom>
+   <poblacio>16952</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Panama</nom>
+   <poblacio>2655094</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Papua New Guinea</nom>
+   <poblacio>4394537</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Paraguay</nom>
+   <poblacio>5504146</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Peru</nom>
+   <poblacio>24523408</poblacio>
+</country>
+  <country languages="" cities="4">
+   <nom>Philippines</nom>
+   <poblacio>74480848</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Pitcairn Islands</nom>
+   <poblacio>56</poblacio>
+</country>
+  <country languages="Polish" cities="1">
+   <nom>Poland</nom>
+   <poblacio>38642564</poblacio>
+</country>
+  <country languages="Portuguese" cities="0">
+   <nom>Portugal</nom>
+   <poblacio>9865114</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Puerto Rico</nom>
+   <poblacio>3819023</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Qatar</nom>
+   <poblacio>547761</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Reunion</nom>
+   <poblacio>679198</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Romania</nom>
+   <poblacio>21657162</poblacio>
+</country>
+  <country languages="Russian" cities="13">
+   <nom>Russia</nom>
+   <poblacio>148178480</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Rwanda</nom>
+   <poblacio>6853359</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Saint Helena</nom>
+   <poblacio>6782</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Saint Kitts and Nevis</nom>
+   <poblacio>41369</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Saint Lucia</nom>
+   <poblacio>157862</poblacio>
+</country>
+  <country languages="French" cities="0">
+   <nom>Saint Pierre and Miquelon</nom>
+   <poblacio>6809</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Saint Vincent and the Grenadines</nom>
+   <poblacio>118344</poblacio>
+</country>
+  <country languages="Italian" cities="0">
+   <nom>San Marino</nom>
+   <poblacio>24521</poblacio>
+</country>
+  <country languages="Portuguese" cities="0">
+   <nom>Sao Tome and Principe</nom>
+   <poblacio>144128</poblacio>
+</country>
+  <country languages="Arabic" cities="1">
+   <nom>Saudi Arabia</nom>
+   <poblacio>19409058</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Senegal</nom>
+   <poblacio>9092749</poblacio>
+</country>
+  <country languages="Albanian Serbo-Croatian" cities="1">
+   <nom>Serbia and Montenegro</nom>
+   <poblacio>10614558</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Seychelles</nom>
+   <poblacio>77575</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Sierra Leone</nom>
+   <poblacio>4793121</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Singapore</nom>
+   <poblacio>3396924</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Slovakia</nom>
+   <poblacio>5374362</poblacio>
+</country>
+  <country languages="Slovenian Serbo-Croatian" cities="0">
+   <nom>Slovenia</nom>
+   <poblacio>1951443</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Solomon Islands</nom>
+   <poblacio>412902</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Somalia</nom>
+   <poblacio>9639151</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>South Africa</nom>
+   <poblacio>41743460</poblacio>
+</country>
+  <country languages="" cities="6">
+   <nom>South Korea</nom>
+   <poblacio>45482292</poblacio>
+</country>
+  <country languages="Catalan Galician Basque" cities="2">
+   <nom>Spain</nom>
+   <poblacio>39181112</poblacio>
+</country>
+  <country languages="Tamil Sinhala" cities="0">
+   <nom>Sri Lanka</nom>
+   <poblacio>18553074</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Sudan</nom>
+   <poblacio>31547544</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Suriname</nom>
+   <poblacio>436418</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Svalbard</nom>
+   <poblacio>2715</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Swaziland</nom>
+   <poblacio>998730</poblacio>
+</country>
+  <country languages="Swedish" cities="0">
+   <nom>Sweden</nom>
+   <poblacio>8900954</poblacio>
+</country>
+  <country languages="French German Italian Romansch" cities="0">
+   <nom>Switzerland</nom>
+   <poblacio>7207060</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Syria</nom>
+   <poblacio>15608648</poblacio>
+</country>
+  <country languages="" cities="2">
+   <nom>Taiwan</nom>
+   <poblacio>21465880</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Tajikistan</nom>
+   <poblacio>5916373</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Tanzania</nom>
+   <poblacio>29058470</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Thailand</nom>
+   <poblacio>58851356</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Togo</nom>
+   <poblacio>4570530</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Tonga</nom>
+   <poblacio>106466</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Trinidad and Tobago</nom>
+   <poblacio>1272385</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Tunisia</nom>
+   <poblacio>9019687</poblacio>
+</country>
+  <country languages="" cities="4">
+   <nom>Turkey</nom>
+   <poblacio>62484480</poblacio>
+</country>
+  <country languages="Russian Uzbek Turkmen" cities="0">
+   <nom>Turkmenistan</nom>
+   <poblacio>4149283</poblacio>
+</country>
+  <country languages="English" cities="0">
+   <nom>Turks and Caicos Islands</nom>
+   <poblacio>14302</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Tuvalu</nom>
+   <poblacio>10146</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Uganda</nom>
+   <poblacio>20158176</poblacio>
+</country>
+  <country languages="" cities="5">
+   <nom>Ukraine</nom>
+   <poblacio>50864008</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>United Arab Emirates</nom>
+   <poblacio>3057337</poblacio>
+</country>
+  <country languages="" cities="2">
+   <nom>United Kingdom</nom>
+   <poblacio>58489976</poblacio>
+</country>
+  <country languages="" cities="10">
+   <nom>United States</nom>
+   <poblacio>266476272</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Uruguay</nom>
+   <poblacio>3238952</poblacio>
+</country>
+  <country languages="Russian Tajik Uzbek" cities="1">
+   <nom>Uzbekistan</nom>
+   <poblacio>23418380</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Vanuatu</nom>
+   <poblacio>177504</poblacio>
+</country>
+  <country languages="" cities="2">
+   <nom>Venezuela</nom>
+   <poblacio>21983188</poblacio>
+</country>
+  <country languages="" cities="3">
+   <nom>Vietnam</nom>
+   <poblacio>73976976</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Virgin Islands</nom>
+   <poblacio>97120</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Wallis and Futuna</nom>
+   <poblacio>14659</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Western Sahara</nom>
+   <poblacio>222631</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Western Samoa</nom>
+   <poblacio>214384</poblacio>
+</country>
+  <country languages="Arabic" cities="0">
+   <nom>Yemen</nom>
+   <poblacio>13483178</poblacio>
+</country>
+  <country languages="" cities="1">
+   <nom>Zaire</nom>
+   <poblacio>46498540</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Zambia</nom>
+   <poblacio>9159072</poblacio>
+</country>
+  <country languages="" cities="0">
+   <nom>Zimbabwe</nom>
+   <poblacio>11271314</poblacio>
+</country>

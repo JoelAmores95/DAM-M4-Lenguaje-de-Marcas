@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Uso de espacios de nombre-->
+<!-- Se usan cuando queremos juntar dos XML distintos que tienen algun elemento con el mismo nombre
+o cuando nos referimos a dos elementos diferentes que comparten el mismo nombre:
+
+-->
+<c1:elementoPadre xmlns:c1="http://www.cartaJuego.com">
+    <carta>
+    <palo>Corazones</palo>
+    <numero>7</numero>
+    </carta>
+
+    <c2:carta xmlns:c2="http://www.cartaComida.com">
+    <carnes>
+        <filete_de_ternera precio="12.95"/>
+        <solomillo_a_la_pimienta precio="13.60"/>
+    </carnes>
+    <pescados>
+        <lenguado_al_horno precio="16.20"/>
+        <merluza_en_salsa_verde precio="15.85"/>
+    </pescados>
+    </c2:carta>
+</c1:elementoPadre>
+
+<!-- Ambos comparten el nombre <carta> pero se refieren a cosas distintas
+
+La solución es añadirles la muletilla xmlns (XML NameSpaces) en el atributo raiz o padre.
+
+Le pongo la primera al elemento padre y creo las definiciones ahi dentro.
+O también se puede poner en cada nuevo elemento y definirlo ahi
+-->

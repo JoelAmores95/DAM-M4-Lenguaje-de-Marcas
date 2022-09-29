@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Tratamiento de los espacios en xml
+
+De normal xml solo deja un espacio entre elementos:-->
+<pruebaEspacios>
+<espacio>Hola, dejo         espacio</espacio>
+
+<!--Aunque ponga espacio en el código, solo saldrá uno en la pagina.
+
+Para que me salga con espacios tal y como digo, necesito usar el atributo:
+
+xml:space="preserve"-->
+<espacioComoYoDigo xml:space="preserve">    Esto dejaespacios                como    YoDigo</espacioComoYoDigo>
+</pruebaEspacios>

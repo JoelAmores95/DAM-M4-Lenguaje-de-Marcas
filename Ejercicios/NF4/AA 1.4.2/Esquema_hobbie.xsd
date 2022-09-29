@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!--Elemento padre-->
+    <xs:element name="Personajes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Tanques" minOccurs="1" maxOccurs="unbounded"/> <!--Añado una exigencia de apariciones mínimas. No hay límite de apariciones máximas-->
+                <xs:element ref="Apoyo" minOccurs="2" maxOccurs="unbounded"/>
+                <xs:element ref="Atacantes" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Animales" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+        <!--Elemento Tanque-->
+        <xs:element name="Tanques">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="Clase" type="xs:string"/>
+                    <xs:element name="HP_Base">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:integer">
+                                <xs:maxInclusive value="20000"/> <!--Añado restricción de valor máximo (1 en total)-->
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="DEF_Base" type="xs:integer"/>
+                    <xs:element name="Resistencia_Base" type="xs:integer"/>
+                    <xs:element name="ATQ_Base" type="xs:integer"/>
+                </xs:sequence>
+                <xs:attribute name="Color" type="xs:string" use="optional"/> <!--Añado opcionalidad del atributo--> 
+            </xs:complexType>  
+        </xs:element>
+
+        <!--Elemento Apoyo-->
+        <xs:element name="Apoyo">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="Clase" type="xs:string"/>
+                    <xs:element name="HP_Base">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:integer">
+                                <xs:minInclusive value="5000"/> <!--Añado restricción de valor mínimo (2 en total)-->
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="DEF_Base" type="xs:integer"/>
+                    <xs:element name="Resistencia_Base">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:integer">
+                                <xs:pattern value = "[0-9]{2}"/> <!--Añado una restricción de valores entre 0 y 99 (3 en total)-->
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="ATQ_Base" type="xs:integer"/>
+                </xs:sequence>
+            </xs:complexType>    
+        </xs:element>
+
+        <!--Elemento Atacantes-->
+        <xs:element name="Atacantes">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="Clase">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="10"/> <!--Añado restricción de longitud máxima de texto-->
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="HP_Base" type="xs:integer"/>
+                    <xs:element name="DEF_Base" type="xs:integer"/>
+                    <xs:element name="Resistencia_Base" type="xs:integer"/>
+                    <xs:element name="ATQ_Base" type="xs:integer"/>
+                </xs:sequence>
+            </xs:complexType>    
+        </xs:element>
+
+        <!--Elemento Animales-->
+        <xs:element name="Animales">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="Nombre">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:pattern value="\w{3,20}"/> <!--Añado restricción de valor mínimo y máximo con cualquier carácter alfanumérico-->
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="Rol_Compatible">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string"> <!--Añado restricción de listado-->
+                                <xs:enumeration value="Brujo"/>
+                                <xs:enumeration value="Paladin"/>
+                                <xs:enumeration value="Caballero Oscuro"/>
+                                <xs:enumeration value="Sanador"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>    
+</xs:schema>

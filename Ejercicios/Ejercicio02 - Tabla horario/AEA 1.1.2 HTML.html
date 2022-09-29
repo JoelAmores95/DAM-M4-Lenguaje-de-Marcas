@@ -1,0 +1,95 @@
+<!DOCTYPE html> <!--Uso del DOCTYPE-->
+
+<!--Inicio página y apartado 1 del ejercicio-->
+<html lang="cat"> 
+
+	<!--Inicio Cabecera-->
+	<head> 
+		<meta charset="utf-8"> <!--Uso del meta-->
+		<meta name="author" content="Joel Amores">
+		<link rel="stylesheet" type="text/css" href="cssTablaHorario.css"/>
+		
+		<title>1r DAM1m Joel Amores</title> <!--Uso del title para darle nombre a la pestaña-->
+		<p><a href="http:\\insbaixcamp.org" class="Enlace">Enllaç a la web INS BAIX CAMP</a> <!--Uso de envío a enlace externo-->
+		<p><a href="https://drive.google.com/file/d/19JzH3ZvVePqaRdEJeTOq4rLOPOo0CaM1/view" class="Enlace">(Aquí per a informació més concreta del curs)</a>
+	</head>
+	
+	<!--Inicio parte principal página-->
+	<body>
+	
+		<!--Información general curso-->
+		<p><h1>Apartat 1. Informació del meu cicle</h1></p>
+		<br>NOM DEL CICLE: DAM: Desenvolupament d’Aplicacions Multiplataforma</br>
+		<br>FAMÍLIA PROFESSIONAL: Informàtica i Comunicacions.</br>
+		<br>TÍTOL: Tècnic superior en Desenvolupament d’aplicacions multiplataforma.</br>
+		<h2>Durada dels estudis</h2>
+		<br>2.000 hores – 2 cursos acadèmics</br>
+		<br>1617 hores en el centre docent</br>
+		<br>383 en el centre de treball (FCT)</br>
+		<br>Possibilitat de cursar el cicle en DUAL</br>
+		<br>Sobre unes 2.300 hores – 2-3 cursos acadèmics</br>
+		<br>1320 hores en el centre docent</br>
+		<br>1000 hores en el centre de treball (gran part remunerades)</br>
+		
+		<!--Listado de módulos-->
+		<h2>Llistat de mòduls 1r Curs</h2>
+		<ol>
+			<li>M1 - Sistemes Informàtics</li>
+			<li>M2 - Bases de dades</li>
+			<li>M3 - Programació</li>
+			<li>M4 - Llenguatges de marques i sistemes de gestió d'informació</li>
+			<li>M5 - Entorns de desenvolupament</li>
+			<li>M6 - Accés a dades</li>
+			<li>M8 - Programació multimedia i  dispositius mòbils</li>
+			<li>Formació i orientació laboral (FOL)</li>
+			<li>Tutoria</li>	
+		</ol>
+		
+		<!--Inicio apartado 2 del ejercicio-->
+		<p><h1>Apartat 2. Horari de clase</h1></p>
+		<table>
+			<thead> <!--Titulo tabla-->
+				<tr>
+					<th>Horari</th>
+					<th class="dia">Dilluns</th>
+					<th class="dia">Dimarts</th>
+					<th class="dia">Dimecres</th>
+					<th class="dia">Dijous</th>
+					<th class="dia">Divendres</th>
+				</tr>
+			</thead>
+			<tr> <!--Contenido de la tabla, primera fila-->
+				<td class="Hora">8:30-9:30</td>
+				<td id="M1" rowspan=2>M1</td> <!--Expande hacia abajo-->
+				<td id="M4" rowspan=2>M4</td>
+				<td id="FOL" colspan=2>FOL</td> <!--Expande hacia el lado-->
+				<td id="Festa" rowspan=4>Festa</td>
+			</tr>
+			<tr> <!--Contenido de la tabla, segunda fila-->
+				<td class="Hora">9:30-10:30</td>
+				<td id="M4">M4</td>
+				<td id="M2" rowspan=2>M2</td>
+			</tr>
+			<tr> <!--Contenido de la tabla, tercera fila-->
+				<td class="Hora">10:45-11:45</td>
+				<td id="M2" rowspan=2>M2</td>
+				<td id="M3" rowspan=2>M3</td>
+				<td id="M3" rowspan=2>M3</td>
+			</tr>
+			<tr> <!--Contenido de la tabla, cuarta fila-->
+				<td class="Hora">11:45-12:45</td>
+				<td id="M1" rowspan=2>M1</td>
+			</tr>
+			<tr> <!--Contenido de la tabla, penúltima fila-->
+				<td class="Hora">13:00-14:00</td>
+				<td id="M3" rowspan=2>M3</td>
+				<td id="Festa" rowspan=2 colspan=2>Festa</td>
+				<td id="M2" rowspan=2>M2</td>
+			</tr>
+			<tr> <!--Contenido de la tabla, última fila-->
+				<td class="Hora">14:00-15:00</td>
+				<td id="Tutoria">Tutoria</td>
+			</tr>
+		</table>
+	</body>
+</html>

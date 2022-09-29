@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es"> <!--Todo Documento de HTML empieza así-->
+
+    <head>
+        <title>UF1 - Hola Mundo</title> <!--Título de pestaña, obligatorio-->
+        
+        <meta charset="UTF-8"> <!--Codificación-->
+        <meta name="description" content="UF1 NF1 HTML"> <!--Descripción, de qué va la página-->
+        <meta name="keywords" content="HTML,Apuntes,XML,JavaScript"> <!--Palabras clave-->
+        <meta name="author" content="Joel Amores"> <!--Pues yo, el autor Muajajaja-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="refresh" content="30"> <!--Para refrescar automáticamente la página-->
+        <link rel="stylesheet" href="000 - index.css"> <!--Ruta de la hoja .css-->
+        <!-- 
+        <script>document.getElementById("demo").innerHTML = "Hello JavaScript!";</script>           Solo Javascript
+        <noscript>Mensaje mostrado a la gente que no tiene javascript habilitado</noscript>-->
+    </head>
+
+    <body> <!-- La parte del cuerpo de la página, contiene la mayoría de etiquetas-->
+        <button><a href="000 - index.html">Volver al índice</a></button>
+        <p id="titulares">
+            <h1>Hola mundo - Mirar código para más info</h1>
+            <h1>Esto es un titular con h1</h1>
+            <h2>Esto es un titular con h2</h2>
+            <h3>Esto es un titular con h3</h3>
+            <h4>Esto es un titular con h4</h4>
+        </p>
+        <p id="parrafos">He usado una etiqueta p para cambiar de párrafo 
+            <br>Usando br hago un salto pegado. (Salto de línea) 
+            <br>No se cierra, solo se abre. 
+            <br>Va dentro de otra etiqueta</p>
+            <p>Todo     texto         que       ponga
+                dentro  de  un "p" 
+            se   espaciará                  y adaptará          a la perfección a       la pantalla donde esté. Aunque esté desordenado en el      .html 
+            (Mira el código)
+        </p>
+        <p id="atributosPrincipales"><h3>Atributos Principales 
+            <br>Lista completa <a href="https://www.w3.org/TR/2010/WD-html-markup-20100624/common-attributes.html">aquí</a>
+        </h3>
+            <ul>
+                <li>id - Identificador</li> <!--Debe ser único-->
+                <li>class - Clase para el CSS</li>
+                <li>style - Aplica directamente un estilo (Mejor usar CSS)</li>
+                <li title="Esto lo he escrito yo">title - Muestra el titulo al pasar el ratón por encima <br>PRUÉBAME</li>
+                <li>Contenteditable = "true/false" - Básicamente permite o deniega la edición</li>
+                <li title="Se especifica en la etiqueta <html>">lang = "codigo idioma" 
+                    <br> es - español
+                    <br>en - inglés 
+                    <br>fr - francés
+                </li>
+                <li>dir = "LTR (Left To Right) | RTL (Right To Left)</li>
+                <li accesskey="a">accesskey = "letraDeAcceso" - Al pulsar esa tecla te lleva ahí
+                    <br>Al pulsar la tecla "A" te trae aquí, o debería...
+                </li>
+                <li tabindex="0">tabindex = "número" - Al darle al tabulador seguirá el orden establecido
+                    <br>Va entre 0 y 32.767 (Este tiene asignado el numero 0)
+                    <br>Mejor usarlo en cajas de texto por ejemplo, o botones.
+                </li>
+            </ul>
+        </p>
+        <p id="atributosInteracción"><h3 title ="De momento nada, solo es para Javascript" >Atributos de Interacción <br>Lista completa <a href="https://www.w3.org/TR/2010/WD-html-markup-20100624/common-attributes.html">aquí</a></h3></p>
+    </body>
+    <footer>
+        <button><a href="000 - index.html">Página anterior</a></button>
+        <button><a href="002 - Semantica.html">Siguiente página</a></button>
+    </footer>
+</html> <!--Fin del documento-->

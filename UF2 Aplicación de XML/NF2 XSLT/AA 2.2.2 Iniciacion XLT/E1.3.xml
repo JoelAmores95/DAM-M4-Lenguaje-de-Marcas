@@ -1,0 +1,10 @@
+<Courses>
+    <Course Title="Digital Systems I" Number="EE108A">
+       <Description>Digital circuit, logic, and system design.</Description>
+       <Instructor>Mitra</Instructor>
+    </Course>
+    <Course Title="Digital Systems II" Number="EE108B">
+       <Description>The design of processor-based digital systems.</Description>
+       <Instructor>Dally Olukotun</Instructor>
+    </Course>
+ </Courses>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"> <!-- amb elementFormDefault=qualified diem que els elements es comproven amb el namespace xs, si posem unqualified no es comproven -->
+    
+    <!-- element "monitors" -->
+    <xs:element name="monitors">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="monitor" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <!-- element "monitor" -->
+    <xs:element name="monitor">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="brand" type="xs:string"/>
+                <xs:element name="size" type="SizeType"/>    <!-- segona pregunta -->
+                <xs:element name="ratio" type="tipus_ratio"/>    <!-- tercera pregunta -->
+                <xs:element name="maxresolution" type="resolucio"/>    <!-- sisena pregunta -->
+                <xs:element name="launchDate" type="xs:string"/>
+                <xs:element name="feature" type="xs:string" minOccurs="0" maxOccurs="3"/>    <!-- setena pregunta -->
+                <xs:element ref="price"/>    <!-- cuarta pregunta -->
+            </xs:sequence>
+            <xs:attribute name="type" type="tipus"/>    <!-- primera pregunta -->
+            <xs:attribute name="modelNo" type="format_model"/>    <!-- cinquena pregunta -->
+        </xs:complexType>
+    </xs:element>
+    <!-- type "tipus" -->        
+    <xs:simpleType name="tipus">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="LED"/>
+            <xs:enumeration value="LCD"/>
+            <xs:enumeration value="LEDHD"/>
+            <!--<xs:pattern value="LCD|LED|LEDHD"/>-->
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- type "SizeType" -->    
+    <xs:simpleType name="SizeType">
+        <xs:restriction base="xs:float">
+            <xs:minInclusive value="15.6"/>
+            <xs:maxInclusive value="27"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- type "tipus_ratio" -->    
+    <xs:simpleType name="tipus_ratio">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="4:3|16:9"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- type "price" -->    
+    <xs:element name="price">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="currency" type="xs:string" default="DOL"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <!-- format_model -->    
+    <xs:simpleType name="format_model">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\w{5,10}"/>    <!-- compost per lletres i dígits i amb llargada entre 5 i 10, \w indica qualsevol caràcter alfanumèric -->
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- type "resolucio" -->    <!-- sisena pregunta -->
+    <xs:simpleType name="resolucio">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{3,4}x\d{3,4}"/>    <!-- \d qualsevol número {3,4} mínim 3 màxim 4 posicions, la x té que estar i un altre cop el mateix -->
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

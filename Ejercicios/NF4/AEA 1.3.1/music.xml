@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spotify>
+    <playlist>
+        <nombre><![CDATA[ Bachata & more ]]></nombre>
+        <fecha_creacion>20/12/2007</fecha_creacion>
+        <!--Primera canción-->
+        <cancion>
+            <track>01</track>
+            <titulo>Ateo</titulo>
+            <autor>C.Tangana</autor>
+            <duracion>3:59</duracion>
+        </cancion>
+        <!--Segunda canción-->
+        <cancion>
+            <track>02</track>
+            <titulo>Propuesta indecente</titulo>
+            <autor>Romeo Santos</autor>
+            <duracion>3:55</duracion>
+        </cancion>
+    </playlist>
+    <playlist>
+        <nombre><![CDATA[ Temazos de Españita & olé olé]]></nombre>
+        <fecha_creacion>14/1/2009</fecha_creacion>
+        <!--Primera canción-->
+        <cancion>
+            <track>01</track>
+            <titulo>Vino tinto</titulo>
+            <autor>Estopa</autor>
+            <duracion>3:19</duracion>
+        </cancion>
+        <!--Segunda canción-->
+        <cancion>
+            <track>02</track>
+            <titulo>Bulería</titulo>
+            <autor>David Bisbal</autor>
+            <duracion>4:15</duracion>
+        </cancion>
+    </playlist>
+</spotify>

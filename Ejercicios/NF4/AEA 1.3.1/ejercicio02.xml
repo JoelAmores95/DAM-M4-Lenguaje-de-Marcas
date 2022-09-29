@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> <!--Añadido el encoding-->
+<etiquetaroot> <!--Añadida la etiqueta padre-->
+    <memo>
+        <to>Joan</to> <!--añadida etiqueta de cierre-->
+        <from>Carme</from> <!--etiquetas igualadas-->
+        <cc></cc> <!--Otra opción sería <cc/> -->
+        <subject>Capitol 1: XML Intercharge Format</subject> <!--eliminada etiqueta de cierre </to> -->
+    </memo>
+    <memo>
+        <to>Carme</to>
+        <!--Añadidas etiquetas vacías-->
+        <from/>
+        <cc/>
+        <subject value="Capítol 2: JSON Intercharge Format" /> <!--Otra opción sería: <subject> <value> Capítol 2: JSON Intercharge Format </value> </subject> -->
+    </memo>
+</etiquetaroot>

@@ -1,0 +1,34 @@
+<Department>
+    <Title>Computer Science
+        <Chair>
+            <Professor>
+                <First_Name>Jennifer</First_Name>
+                <Last_Name>Widom</Last_Name>
+            </Professor>
+        </Chair>
+    </Title>
+</Department>
+
+<Department>
+<Title>Electrical Engineering
+    <Chair>
+        <Professor>
+            <First_Name>Mark</First_Name>
+            <Middle_Initial>A.</Middle_Initial>
+            <Last_Name>Horowitz</Last_Name>
+        </Professor>    
+    </Chair>
+</Title>
+</Department>
+
+<Department>
+    <Title>Linguistics
+        <Chair>    
+            <Professor>
+                <First_Name>Beth</First_Name>
+                <Last_Name>Levin</Last_Name>    
+            </Professor>
+        </Chair>
+    </Title>
+</Department>
+

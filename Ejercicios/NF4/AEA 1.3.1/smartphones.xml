@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<teléfonos>
+    <smartphone>
+        <modelo>iPhone SE 2</modelo>
+        <sistema_operativo>
+            <nombre>iOS</nombre>
+            <version>13</version>
+        </sistema_operativo>
+        <peso>140g</peso>
+        <resolucion>1334 x 750</resolucion>
+        <procesador>Apple A13 bionic</procesador>
+        <memoria>64 GB, 128 GB y 256 GB</memoria>
+        <precio>465€</precio>
+    </smartphone>
+    <smartphone>
+        <modelo>Samsung S20</modelo>
+        <sistema_operativo>
+            <nombre>Android</nombre>
+            <version>10</version>
+        </sistema_operativo>
+        <peso>167g</peso>
+        <resolucion>1.440 x 3.200</resolucion>
+        <procesador>Qualcomm Snapdragon 865</procesador>
+        <memoria>128 GB</memoria>
+        <precio>495€</precio>
+    </smartphone>
+</teléfonos>

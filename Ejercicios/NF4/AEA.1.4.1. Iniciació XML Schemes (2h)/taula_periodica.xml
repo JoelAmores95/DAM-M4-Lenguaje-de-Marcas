@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<taula_periodica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="XML SCHEMA.xsd">
+    <elements>
+        <element>
+            <nom estat="gasós">Hidrògen</nom>
+            <simbol>H</simbol>
+            <numeroAtomic>1</numeroAtomic>
+            <pesAtomic>1.00794</pesAtomic>
+            <puntEbullicio unitats="kelvin">20.28</puntEbullicio>
+            <densitat unitats="g/cm3">0.0899</densitat>
+        </element>
+        <element>
+            <nom estat="gasós">Heli</nom>
+            <simbol>He</simbol>
+            <numeroAtomic>2</numeroAtomic>
+            <pesAtomic>4.0026</pesAtomic>
+            <puntEbullicio unitats="kelvin">4.216</puntEbullicio>
+            <densitat unitats="g/cm3">0.1785</densitat>
+        </element>
+    </elements>
+</taula_periodica>
+

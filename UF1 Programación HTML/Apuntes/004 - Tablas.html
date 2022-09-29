@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>003 - Tablas</title>
+        <link rel="stylesheet" href="000 - index.css">
+    </head>
+    <body>
+        <button><a href="000 - index.html">Volver al índice</a></button>
+        <h1>Tablas</h1>
+        <h2>Partes de una tabla</h2>
+        <nav>
+            <a href="#table">< table ></a>
+        </nav>
+        <h2>table</h2>
+        <p>El contenedor principal</p>
+        <h2>thead, tbody, tfoot</h2>
+        <p>De la misma forma que el propio html tiene esas tres partes, la tabla también. 
+            <br>Thead siempre estará visible, es buena idea darle énfasis con .css
+            <br>Aunque no es necesario que estén todas presentes.
+        </p>
+        <h2>TR y TD</h2>
+        <p>TR: Table Row, fila, horizontal.
+            <br>TD: Table Data, contenido de la fila.
+            <br>EJEMPLO:
+            <table border="1"> <!--No se usa este atributo, todo se hace desde el .css, esto es una expeción-->
+                <caption>Titulo Tabla usando caption</caption>
+                <thead>
+                    <th>Columna 1</th> <!--Thead SIEMPRE USA th en vez de td-->
+                    <th>Columna 2</th>
+                </thead>
+                <tr>
+                    <td>Celda 1</td>
+                    <td>Celda 2</td>
+                </tr>
+                <tr>
+                    <td>Celda 3</td>
+                    <td>Celda 4</td>
+                </tr>
+            </table>
+        </p>
+        <h2>Scope</h2>
+        <p>Scope sirve para determinar de qué es cabecera el elemento th:
+            <br>Scope="row" para fila
+            <br>Scope="col" para Columna
+            <br>EJEMPLO:
+            <table border="1"> <!--No se usa este atributo, todo se hace desde el .css, esto es una expeción-->
+                <caption>Titulo Tabla usando caption</caption>
+                <thead>
+                    <th>(relleno)</th>
+                    <th scope="col">Columna 1</th> <!--Thead SIEMPRE USA th en vez de td-->
+                    <th>Columna 2</th>
+                </thead>
+                <tr>
+                    <th scope="row">Titulo fila</th>
+                    <td>Celda 1</td>
+                    <td>Celda 2</td>
+                </tr>
+                <tr>
+                    <th scope="row">Titulo fila 2</th>
+                    <td>Celda 3</td>
+                    <td>Celda 4</td>
+                </tr>
+            </table>
+        </p>
+        <h2>Colspan y Rowspan</h2>
+        <p><table border="2">
+            <caption>Uso del colspan y Rowspan</caption>
+            <tr>
+                <td colspan="2">Soy colspan y ocupo dos columnas, por eso COL span xD</td>
+                <td>(relleno)</td>
+                <!--Vacío porque colpsan usa dos columnas-->
+            </tr>
+            <tr>
+                <td>(relleno)</td>
+                <td rowspan="2">Soy Rowspan y ocupo 2 filas, oleee</td>
+                <td>(relleno)</td>
+
+            </tr>
+            <tr>
+                <!--Vacío porque rowspan usa este sitio-->
+                <td>(relleno)</td>
+                <td>(relleno)</td>
+            </tr>
+        </table></p>
+    </body>
+    <footer>
+        <button><a href="003 - Semantica.html">Página anterior</a></button>
+        <button><a href="005 - Formularios.html">Siguiente página</a></button>
+    </footer>
+</html>

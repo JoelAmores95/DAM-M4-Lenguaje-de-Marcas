@@ -1,0 +1,13 @@
+section{display: flex; /* display flex, no flexbox*/
+    flex-direction: row; /*Los elementos se ponen en columna, uno encima de otro, o en row, en fila*/
+    text-align: left; /*el TEXTO del elemento*/
+    flex-wrap: nowrap; /*con nowrap, al hacer zoom se mantienen en una fila*/
+    justify-content: flex-start;
+    align-items: flex-start;
+} 
+aside{background-color: bisque;}
+#flexbox{text-align:center ;}
+
+/*Ordenar elementos*/
+#flexboxPadre{order: 1;}
+#flexboxHijos{order: 2;}

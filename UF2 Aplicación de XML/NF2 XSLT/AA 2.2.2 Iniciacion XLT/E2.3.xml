@@ -1,0 +1,82 @@
+<countries>
+   <country>
+      <nom>Afghanistan</nom>
+      <llenguatge>Afghan Persian</llenguatge>
+   </country>
+   <country>
+      <nom>Armenia</nom>
+      <llenguatge>Russian Armenian</llenguatge>
+   </country>
+   <country>
+      <nom>Azerbaijan</nom>
+      <llenguatge>Russian Armenian</llenguatge>
+   </country>
+   <country>
+      <nom>Bosnia and Herzegovina</nom>
+      <llenguatge>Serbo-Croatian</llenguatge>
+   </country>
+   <country>
+      <nom>Bulgaria</nom>
+      <llenguatge>Bulgarian</llenguatge>
+   </country>
+   <country>
+      <nom>Croatia</nom>
+      <llenguatge>Serbo-Croatian</llenguatge>
+   </country>
+   <country>
+      <nom>Georgia</nom>
+      <llenguatge>Russian Armenian Georgian</llenguatge>
+   </country>
+   <country>
+      <nom>Guatemala</nom>
+      <llenguatge>Indian</llenguatge>
+   </country>
+   <country>
+      <nom>Hungary</nom>
+      <llenguatge>Hungarian</llenguatge>
+   </country>
+   <country>
+      <nom>Iran</nom>
+      <llenguatge>Persian Persian</llenguatge>
+   </country>
+   <country>
+      <nom>Macedonia</nom>
+      <llenguatge>Albanian Macedonian Serbo-Croatian</llenguatge>
+   </country>
+   <country>
+      <nom>Norway</nom>
+      <llenguatge>Norwegian</llenguatge>
+   </country>
+   <country>
+      <nom>Russia</nom>
+      <llenguatge>Russian</llenguatge>
+   </country>
+   <country>
+      <nom>San Marino</nom>
+      <llenguatge>Italian</llenguatge>
+   </country>
+   <country>
+      <nom>Serbia and Montenegro</nom>
+      <llenguatge>Albanian Serbo-Croatian</llenguatge>
+   </country>
+   <country>
+      <nom>Slovenia</nom>
+      <llenguatge>Slovenian Serbo-Croatian</llenguatge>
+   </country>
+   <country>
+      <nom>Spain</nom>
+      <llenguatge>Galician</llenguatge>
+   </country>
+   <country>
+      <nom>Switzerland</nom>
+      <llenguatge>Italian</llenguatge>
+   </country>
+   <country>
+      <nom>Turkmenistan</nom>
+      <llenguatge>Russian</llenguatge>
+   </country>
+   <country>
+      <nom>Uzbekistan</nom>
+      <llenguatge>Russian</llenguatge>
+   </country>
+</countries>

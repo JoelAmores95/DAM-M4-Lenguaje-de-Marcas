@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            UF1 Flexbox
+        </title>
+        <link rel="stylesheet" href="008 - Flexbox.css">
+        <button><a href="000 - index.html">Volver al índice</a></button>
+        <!--Tu iras al centro-->
+        <article id="flexbox">
+            <h1>¡¡HOLA FLEXBOX, CHAO FLOAT!!</h1>
+            <p>Flexbox se usa para POSICIONAR elementos en la página.
+            <br>La estructura es un contenedor padre y varios elementos dentro que son los hijos.
+            <br><aside>section class = "padre" en HTML.
+            <br>.padre {display: flex} en .css</aside></p>
+        </article>
+    </head>
+    <section>  
+        <!--Quiero poner uno a cada banda-->
+        <article id="flexboxPadre">
+            <h1>Propiedades del contenedor flex (padre)</h1>
+            <ul>
+                <li>flex-direction: como se muestran en horizontal (X) los elementos</li>
+                <li>flex-wrap: Permite juntar en una única fila todos los elementos (nowrap), o en varias (wrap) o wrap-reverse</li>
+                <li title=".pare { flex-flow: < flex-direction > || < flex-wrap >; }">flex-flow: Junta las dos anteriores en una. 
+                </li>
+                <li>justify-content: Alinea los elementos a un lado:
+                    <ul>
+                        <li>flex-start: a la izquierda</li>
+                        <li>flex-end: a la derecha</li>
+                        <li>center: al centro</li>
+                        <li>space-between: el primero y el ultimo a los bordes, el resto con espacios iguales entre ellos</li>
+                        <li>space-around: todos tienen el mismo espacio entre ellos</li>
+                    </ul>
+                </li>
+                <li>align-items: este tiene que ver con el eje secundario (Y)
+                    <ul>
+                        <li>stretch: ocupan toda la altura</li>
+                        <li>flex-start: arriba a la izquierda</li>
+                        <li>flex-end: abajo a la izquierda</li>
+                        <li>center: en todo el medio</li>
+                        <li>baseline: las lineas base quedan a la misma altura</li>
+                    </ul>
+                </li>
+                <li>align-content: mejor mirar <a href="../UF1-NF2-003-Flexbox.pdf">apuntes</a></li>  
+            </ul>
+        </article>
+        <article id="flexboxHijos">
+            <h1>Propiedades de los hijos</h1>
+            <ul>
+                <li>order: Asigna el valor del orden que tiene. A más bajo antes sale, puede ser negativo.</li>
+                <li>flex-grow: Establece el tamaño con respecto al resto</li>
+                <li>flex-shrink: Para hacerlo peque, si se pone 0 queda igual, no se reduce</li>
+                <li>flex-basis: es igual que height y width. Se pone auto o el valor en px.</li>
+                <li>flex: Une flex-grow, flex shrink y flex-basis
+                    <ul><li>.hijo {flex: none|auto 0/1 0/1 auto}</li></ul>
+                </li>
+                <li>align-self: para posicionar de forma concreta algun elemento</li>
+            </ul>
+            <p><a href="../Recursos/Flexbox_02.html">EJEMPLO FLEXBOX</a></p>
+        </article>
+    </section>
+</html>

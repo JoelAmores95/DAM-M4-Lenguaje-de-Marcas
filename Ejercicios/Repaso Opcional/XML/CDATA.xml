@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CDATA o Character DATA -->
+<!-- Usado para escribir texto que no será procesado, por ejemplo para escribir un código de programa-->
+
+<!--Sintaxis-->
+<ejemploCDATA>
+<![CDATA[texto que 
+se va a mostrar 
+ignorando simbolos raros {} & € " ' algo mas            XD]]>
+</ejemploCDATA>

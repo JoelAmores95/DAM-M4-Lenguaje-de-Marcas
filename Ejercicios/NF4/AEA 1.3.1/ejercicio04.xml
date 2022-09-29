@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--a) Descriu amb les teves paraules que és un namespace.
+
+Es un atributo que permite diferenciar etiquetas con el mismo nombre exacto.
+
+b) Què diferencia a un namespace explícit d'un namespace per defecte? Quan utilitzarem un o altre?
+Un explícito es para un caso concreto dentro de la misma etiqueta, mientras que el por defecto se usa en todas las etiquetas globales.
+Para una etiqueta concreta dentro de una etiqueta que comparte nombre con otra, se usa la explícita. Si no es necesario, se usa la otra.
+
+c) Analitza el següent exemple per entendre el seu objectiu:
+
+
+<?xml version="1.0" encoding="UTF-8"?> -->
+
+<!--Primera etiqueta, por defecto. etiqueta explícita,                        etiqueta explícita,                  etiqueta explícita-->
+<empresa xmlns="http://empresaIBC" xmlns:treb="http://empresaIBC/treballador" xmlns:add="http://empresaIBC/adreca" xmlns:dep="http://empresaIBC/departament">
+    <treballadors>
+        <treballador>
+        <treb:codi>2323</treb:codi><!--Usa la etiqueta explicita-->
+        <treb:nom>Carles Garcia Llorens</treb:nom><!--Usa la etiqueta explicita-->
+        <adreca>
+        <carrer>Jacint Barrau</carrer>
+        <numero>1</numero>
+        <add:codi>43201</add:codi><!--Usa la etiqueta explicita-->
+        </adreca>
+        <codi>IT1</codi>
+        </treballador>
+    </treballadors>
+    <departaments>
+        <departament>
+            <dep:nom>Informatica</dep:nom><!--Usa la etiqueta explicita-->
+            <dep:codi>IT1</dep:codi><!--Usa la etiqueta explicita-->
+        </departament>
+        <departament>
+            <dep:nom>Contabilitat</dep:nom><!--Usa la etiqueta explicita-->
+            <dep:codi>COM1</dep:codi><!--Usa la etiqueta explicita-->
+        </departament>
+    </departaments>
+</empresa>

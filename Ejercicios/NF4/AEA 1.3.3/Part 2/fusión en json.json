@@ -1,0 +1,53 @@
+{
+    "exemples": {
+      "instruccioExemple": [
+        {
+          "nomInstruccio": "Bucle FOR",
+          "sintaxi": ["for (intContador; condicion; accionTrasCadaCiclo){",
+                          "Codigo a ejecutar en el bucle",
+                        "}"
+                      ]
+        },
+        {
+          "nomInstruccio": "Bucle WHILE",
+          "sintaxi": ["while (condicion){",
+                              "Codigo a ejecutar en el bucle",
+                        "}"
+                      ]
+        },
+        {
+          "nomInstruccio": "SWITCH",
+          "sintaxi": ["switch (variable){",
+                            "case1: codigo;",
+                            "break;",
+                            "case2: codigo;",
+                            "break;",
+                            "...",
+                            "caseN: codigo;",
+                            "break;",
+                            "default: codigo",
+                        "}"
+                      ]
+        }
+      ]
+    },
+    "programes": {
+        "instruccioPrograma": [
+        {
+            "nomPrograma": "Dibujar pirámide",
+            "id": "001",
+            "edat_recomanada": "8"
+        },
+        {
+            "nomPrograma": "Inscribir participantes",
+            "id": "002",
+            "edat_recomanada": "18"
+        },
+        {
+            "nomPrograma": "Suprimir suspendidos",
+            "id": "003",
+            "edat_recomanada": "18"
+        }
+        ]
+    }
+  }

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tienda>
+    <!--Primer juego-->
+    <!--Ejemplar 1-->
+    <juego>
+        <codigo_juego>CUSA11994
+            <codigo_ejemplar>001</codigo_ejemplar>
+        </codigo_juego>
+        <nombre>Marvel's Spiderman</nombre>
+        <version>1.19</version>
+        <compañia>Insomniac Games</compañia>
+        <año_release>2018</año_release>
+    </juego>
+    <!--Primer juego-->
+    <!--Ejemplar 2-->
+    <juego>
+        <codigo_juego>CUSA11994
+            <codigo_ejemplar>002</codigo_ejemplar>
+        </codigo_juego>
+        <nombre>Marvel's Spiderman</nombre>
+        <version>1.19</version>
+        <compañia>Insomniac Games</compañia>
+        <año_release>2018</año_release>
+    </juego>
+    <!--Primer juego-->
+    <!--Ejemplar 3-->
+    <juego>
+        <codigo_juego>CUSA11994
+            <codigo_ejemplar>003</codigo_ejemplar>
+        </codigo_juego>
+        <nombre>Marvel's Spiderman</nombre>
+        <version>1.19</version>
+        <compañia>Insomniac Games</compañia>
+        <año_release>2018</año_release>
+    </juego>
+    <!--Segundo juego-->
+    <!--Ejemplar 1-->
+    <juego>
+        <codigo_juego>CUSA-12025
+            <codigo_ejemplar>101</codigo_ejemplar>
+        </codigo_juego>
+        <nombre>Kingdom Hearts 3</nombre>
+        <version>1.27</version>
+        <compañia>Square Enix</compañia>
+        <año_release>2019</año_release>
+    </juego>
+    <!--Segundo juego-->
+    <!--Ejemplar 2-->
+    <juego>
+        <codigo_juego>CUSA-12025
+            <codigo_ejemplar>102</codigo_ejemplar>
+        </codigo_juego>
+        <nombre>Kingdom Hearts 3</nombre>
+        <version>1.27</version>
+        <compañia>Square Enix</compañia>
+        <año_release>2019</año_release>
+    </juego>
+    <!--Segundo juego-->
+    <!--Ejemplar 3-->
+    <juego>
+        <codigo_juego>CUSA-12025
+            <codigo_ejemplar>103</codigo_ejemplar>
+        </codigo_juego>
+        <nombre>Kingdom Hearts 3</nombre>
+        <version>1.27</version>
+        <compañia>Square Enix</compañia>
+        <año_release>2019</año_release>
+    </juego>
+    <!--Préstamos-->
+    <prestamo>
+        <ejemplar>001</ejemplar>
+        <socio>
+            <DNI>39987674B</DNI>
+            <nombre>Paco</nombre>
+            <telefono>600998877</telefono>
+        </socio>
+        <fecha_prestamo>20/12/2021</fecha_prestamo>
+        <fecha_devolucion>27/12/2021</fecha_devolucion>
+    </prestamo>
+</tienda>

@@ -1,0 +1,21 @@
+{
+    "programes": {
+        "instruccio": [
+        {
+            "nom": "Dibujar pirámide",
+            "id": "001",
+            "edat_recomanada": "8"
+        },
+        {
+            "nom": "Inscribir participantes",
+            "id": "002",
+            "edat_recomanada": "18"
+        },
+        {
+            "nom": "Suprimir suspendidos",
+            "id": "003",
+            "edat_recomanada": "18"
+        }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="discs">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="disc" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="disc">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="interpret"/>
+            <xs:element ref="titol"/>
+            <xs:element ref="discgrafica"/>
+            <xs:element ref="any"/>
+            <xs:element ref="stock"/>
+        </xs:sequence>
+        <xs:attribute name="preu">
+            <xs:simpleType>
+                <xs:restriction base="xs:decimal">
+                    <xs:fractionDigits value="2"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="interpret">
+    <xs:simpleType>
+        <xs:attribute name="nom">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:maxLength value="50"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="titol">
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="discgrafica" default="CBS">
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Sony"/>
+            <xs:enumeration value="CBS"/>
+            <xs:enumeration value="SIRE"/>
+            <xs:enumeration value="Altres"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="any">
+    <xs:simpleType>
+    <xs:restriction base="xs:integer">
+        <xs:pattern value="[0-9]{4}"/>
+    </xs:restriction>
+        <xs:attribute name="mes" type="xs:string"/>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="stock">
+    <xs:simpleType>
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="200"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+</xs:schema>

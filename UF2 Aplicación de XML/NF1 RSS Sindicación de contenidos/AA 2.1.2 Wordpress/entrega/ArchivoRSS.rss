@@ -1,0 +1,110 @@
+
+<?xml version="1.0" encoding="UTF-8"?> <!-- Anàlisi de l'arxiu RSS Activitat 2.1.2 Joel Amores-->
+<rss version="2.0" 
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	> <!--Etiqueta que ens diu que es un arxiu RSS-->
+
+<channel> <!-- Aquesta etiqueta channel conté metadades importants, és com el pare dels elements RSS-->
+	<title>AA 2.1.2</title> <!-- Nom del RSS, es pot modificar-->
+	<atom:link href="https://torneoligacelestial.wordpress.com/feed/" rel="self" type="application/rss+xml" /> <!-- URL principal de la web a la que correspon l'RSS -->
+	<link>https://torneoligacelestial.wordpress.com</link> <!-- URL principal de la web a la que correspon l'RSS -->
+	<description>AA 2.1.2 Joel Amores</description> <!-- Descripció de la entrada-->
+	<lastBuildDate>Tue, 08 Mar 2022 08:52:12 +0000</lastBuildDate> <!-- Data de publicació-->
+	<language>es</language> <!--Idioma es = espanyol-->
+	<sy:updatePeriod> 
+	hourly	</sy:updatePeriod> <!--Període d'actualització de novetats, en aquest cas cada hora-->
+	<sy:updateFrequency>
+	1	</sy:updateFrequency> <!--Comproba actualitzacions cada hora-->
+	<generator>http://wordpress.com/</generator>
+<cloud domain='torneoligacelestial.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<image>
+		<url>https://s0.wp.com/i/buttonw-com.png</url>
+		<title>AA 2.1.2</title>
+		<link>https://torneoligacelestial.wordpress.com</link>
+	</image>
+	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://torneoligacelestial.wordpress.com/osd.xml" title="AA 2.1.2" />
+	<atom:link rel='hub' href='https://torneoligacelestial.wordpress.com/?pushpress=hub'/>
+	<item>
+		<title>¡Primer participante confirmado!</title>
+		<link>https://torneoligacelestial.wordpress.com/2022/03/08/primer-participante-confirmado/</link>
+					<comments>https://torneoligacelestial.wordpress.com/2022/03/08/primer-participante-confirmado/#respond</comments>
+		
+		<dc:creator><![CDATA[Joel Amores Molero]]></dc:creator>
+		<pubDate>Tue, 08 Mar 2022 08:18:06 +0000</pubDate>
+				<category><![CDATA[Sin categoría]]></category>
+		<guid isPermaLink="false">http://torneoligacelestial.wordpress.com/?p=5</guid>
+
+					<description><![CDATA[¡Tenemos una gran novedad este año! Os presentamos a la primera aspirante por el título de leyenda del torneo de la liga celestial: VANESSA La poderosa valquiria de fuego está dispuesta a sesgar a sus rivales con su espada de fuego, además tiene la habilidad de resucitar a sus aliados. ¡Seguro que será una gran [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-left has-background-background-color has-background">¡Tenemos una gran novedad este año!                                                     </p>
+
+
+
+<p>Os presentamos a la primera aspirante por el título de leyenda del torneo de la liga celestial:</p>
+
+
+
+<h2 class="has-text-align-center">VANESSA</h2>
+
+
+
+<figure class="wp-block-image size-large"><img data-attachment-id="16" data-permalink="https://torneoligacelestial.wordpress.com/vanessa/" data-orig-file="https://torneoligacelestial.files.wordpress.com/2022/03/vanessa.jpg" data-orig-size="1067,600" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="vanessa" data-image-description="" data-image-caption="" data-medium-file="https://torneoligacelestial.files.wordpress.com/2022/03/vanessa.jpg?w=300" data-large-file="https://torneoligacelestial.files.wordpress.com/2022/03/vanessa.jpg?w=723" src="https://torneoligacelestial.files.wordpress.com/2022/03/vanessa.jpg?w=1024" alt="" class="wp-image-16" srcset="https://torneoligacelestial.files.wordpress.com/2022/03/vanessa.jpg?w=1024 1024w, https://torneoligacelestial.files.wordpress.com/2022/03/vanessa.jpg?w=150 150w, https://torneoligacelestial.files.wordpress.com/2022/03/vanessa.jpg?w=300 300w, https://torneoligacelestial.files.wordpress.com/2022/03/vanessa.jpg?w=768 768w, https://torneoligacelestial.files.wordpress.com/2022/03/vanessa.jpg 1067w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>La poderosa valquiria de fuego está dispuesta a sesgar a sus rivales con su espada de fuego, además tiene la habilidad de resucitar a sus aliados.</p>
+
+
+
+<p>¡Seguro que será una gran rival a batir!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://torneoligacelestial.wordpress.com/2022/03/08/primer-participante-confirmado/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/5f6ede3355a6f07236c9d1017e588e41?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">eljoeel11</media:title>
+		</media:content>
+
+		<media:content url="https://torneoligacelestial.files.wordpress.com/2022/03/vanessa.jpg?w=1024" medium="image" />
+	</item>
+		<item>
+		<title>Presentación del torneo</title>
+		<link>https://torneoligacelestial.wordpress.com/2022/03/08/hello-world/</link>
+					<comments>https://torneoligacelestial.wordpress.com/2022/03/08/hello-world/#respond</comments>
+		
+		<dc:creator><![CDATA[Joel Amores Molero]]></dc:creator>
+		<pubDate>Tue, 08 Mar 2022 07:46:38 +0000</pubDate>
+				<category><![CDATA[Sin categoría]]></category>
+		<guid isPermaLink="false">http://torneoligacelestial.wordpress.com/2022/03/08/hello-world/</guid>
+
+					<description><![CDATA[¡Bienvenidos un año más al torneo de la liga celestial! Este año se espera un emocionante ascenso hasta la cima para descubrir al ganador del gran desafío bélico que enfrentará a los más poderosos candidatos. Pronto iremos mostrando los participantes confirmados. ¡No olvidéis suscribiros para no perderos ninguna novedad!]]></description>
+										<content:encoded><![CDATA[
+<p>¡Bienvenidos un año más al torneo de la liga celestial! Este año se espera un emocionante ascenso hasta la cima para descubrir al ganador del gran desafío bélico que enfrentará a los más poderosos candidatos. Pronto iremos mostrando los participantes confirmados. ¡No olvidéis suscribiros para no perderos ninguna novedad!                                                          </p>
+
+
+
+<figure class="wp-block-image size-large"><img data-attachment-id="9" data-permalink="https://torneoligacelestial.wordpress.com/2022/03/08/primer-participante-confirmado/logo-2/" data-orig-file="https://torneoligacelestial.files.wordpress.com/2022/03/logo.jpg" data-orig-size="840,520" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="logo" data-image-description="" data-image-caption="" data-medium-file="https://torneoligacelestial.files.wordpress.com/2022/03/logo.jpg?w=300" data-large-file="https://torneoligacelestial.files.wordpress.com/2022/03/logo.jpg?w=723" src="https://torneoligacelestial.files.wordpress.com/2022/03/logo.jpg?w=840" alt="" class="wp-image-9" srcset="https://torneoligacelestial.files.wordpress.com/2022/03/logo.jpg 840w, https://torneoligacelestial.files.wordpress.com/2022/03/logo.jpg?w=150 150w, https://torneoligacelestial.files.wordpress.com/2022/03/logo.jpg?w=300 300w, https://torneoligacelestial.files.wordpress.com/2022/03/logo.jpg?w=768 768w" sizes="(max-width: 840px) 100vw, 840px" /></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://torneoligacelestial.wordpress.com/2022/03/08/hello-world/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/5f6ede3355a6f07236c9d1017e588e41?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">eljoeel11</media:title>
+		</media:content>
+
+		<media:content url="https://torneoligacelestial.files.wordpress.com/2022/03/logo.jpg?w=840" medium="image" />
+	</item>
+	</channel>
+</rss>

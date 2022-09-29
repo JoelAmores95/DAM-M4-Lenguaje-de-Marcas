@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pokedex>
+
+    <pokemon generacio="I">
+        <nom>BULBASAUR</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/2/21/001Bulbasaur.png/375px-001Bulbasaur.png</imatge>
+        <numero>1</numero>
+        <conjunt_tipus>
+            <tipus>PLANTA</tipus>
+            <tipus>VENENO</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>OVERGROW</habilitat>
+            <dream>CHLOROPHYLL</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>45</HP>
+            <ATK>49</ATK>
+            <DEF>49</DEF>
+            <SPD>45</SPD>
+            <SATK>45</SATK>
+            <SDEF>65</SDEF>
+        </caracteristiques>
+        <experiencia>64</experiencia>
+        <velocitat>MITJANAMENT LENT</velocitat>        
+    </pokemon>
+
+    <pokemon generacio="I">
+        <nom>CHARMANDER</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/7/73/004Charmander.png/375px-004Charmander.png</imatge>
+        <numero>4</numero>
+        <conjunt_tipus>
+            <tipus>FOC</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>BLAZE</habilitat>
+            <dream>SOLAR POWER</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>39</HP>
+            <ATK>52</ATK>
+            <DEF>43</DEF>
+            <SPD>65</SPD>
+            <SATK>60</SATK>
+            <SDEF>50</SDEF>
+        </caracteristiques>
+        <experiencia>62</experiencia>
+        <velocitat>MITJANAMENT LENT</velocitat>     
+    </pokemon>
+
+    <pokemon generacio="I">
+        <nom>CHARIZARD</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/7/7e/006Charizard.png/375px-006Charizard.png</imatge>
+        <numero>6</numero>
+        <conjunt_tipus>
+            <tipus>FOC</tipus>
+            <tipus>VOLADOR</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>BLAZE</habilitat>
+            <dream>SOLAR POWER</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>78</HP>
+            <ATK>84</ATK>
+            <DEF>78</DEF>
+            <SPD>100</SPD>
+            <SATK>109</SATK>
+            <SDEF>85</SDEF>
+        </caracteristiques>
+        <experiencia>240</experiencia>
+        <velocitat>MITJANAMENT LENT</velocitat>       
+    </pokemon>
+
+    <pokemon generacio="I">
+        <nom>SQUIRTLE</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/3/39/007Squirtle.png/375px-007Squirtle.png</imatge>
+        <numero>7</numero>
+        <conjunt_tipus>
+            <tipus>AIGUA</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>TORRENT</habilitat>
+            <dream>RAIN DISH</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>44</HP>
+            <ATK>48</ATK>
+            <DEF>65</DEF>
+            <SPD>43</SPD>
+            <SATK>50</SATK>
+            <SDEF>64</SDEF>
+        </caracteristiques>
+        <experiencia>63</experiencia>
+        <velocitat>MITJANAMENT LENT</velocitat>        
+    </pokemon>
+
+    <pokemon generacio="I">
+        <nom>PIDGEY</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/5/55/016Pidgey.png/375px-016Pidgey.png</imatge>
+        <numero>16</numero>
+        <conjunt_tipus>
+            <tipus>NORMAL</tipus>
+            <tipus>VOLADOR</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>KEEN EYE</habilitat>
+            <habilitat>TANGLED FEET</habilitat>
+            <dream>BIG PECKS</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>40</HP>
+            <ATK>45</ATK>
+            <DEF>40</DEF>
+            <SPD>56</SPD>
+            <SATK>35</SATK>
+            <SDEF>35</SDEF>
+        </caracteristiques>
+        <experiencia>50</experiencia>
+        <velocitat>MITJANAMENT LENT</velocitat>       
+    </pokemon>
+
+    <pokemon generacio="I">
+        <nom>RATTATA</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/4/46/019Rattata.png/375px-019Rattata.png</imatge>
+        <numero>19</numero>
+        <conjunt_tipus>
+            <tipus>NORMAL</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>RUN AWAY</habilitat>
+            <habilitat>GUTS</habilitat>
+            <dream>HUSTLE</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>30</HP>
+            <ATK>56</ATK>
+            <DEF>35</DEF>
+            <SPD>72</SPD>
+            <SATK>25</SATK>
+            <SDEF>35</SDEF>
+        </caracteristiques>
+        <experiencia>51</experiencia>
+        <velocitat>MITJANAMENT RÀPID</velocitat>       
+    </pokemon>
+
+    <pokemon generacio="I">
+        <nom>RAICHU</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/8/88/026Raichu.png/375px-026Raichu.png</imatge>
+        <numero>26</numero>
+        <conjunt_tipus>
+            <tipus>ELÈCTRIC</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>STATIC</habilitat>
+            <dream>LIGHTNING ROD</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>60</HP>
+            <ATK>90</ATK>
+            <DEF>55</DEF>
+            <SPD>100</SPD>
+            <SATK>90</SATK>
+            <SDEF>80</SDEF>
+        </caracteristiques>
+        <experiencia>214</experiencia>
+        <velocitat>MITJANAMENT RÀPID</velocitat>        
+    </pokemon>
+
+    <pokemon generacio="I">
+        <nom>NIDOKING</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/c/c6/034Nidoking.png/375px-034Nidoking.png</imatge>
+        <numero>34</numero>
+        <conjunt_tipus>
+            <tipus>VENENO</tipus>
+            <tipus>TERRA</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>VENENO POINT</habilitat>
+            <habilitat>RIVALRY</habilitat>
+            <dream>SHEER FORCE</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>60</HP>
+            <ATK>90</ATK>
+            <DEF>55</DEF>
+            <SPD>100</SPD>
+            <SATK>90</SATK>
+            <SDEF>80</SDEF>
+        </caracteristiques>
+        <experiencia>223</experiencia>
+        <velocitat>MITJANAMENT LENT</velocitat>        
+    </pokemon>
+
+    <pokemon generacio="I">
+        <nom>GEODUDE</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/9/98/074Geodude.png/375px-074Geodude.png</imatge>
+        <numero>74</numero>
+        <conjunt_tipus>
+            <tipus>ROCA</tipus>
+            <tipus>TERRA</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>ROCK HEAD</habilitat>
+            <habilitat>STURDY</habilitat>
+            <dream>SAND VEIL</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>40</HP>
+            <ATK>80</ATK>
+            <DEF>100</DEF>
+            <SPD>20</SPD>
+            <SATK>30</SATK>
+            <SDEF>30</SDEF>
+        </caracteristiques>
+        <experiencia>60</experiencia>
+        <velocitat>MITJANAMENT LENT</velocitat>       
+    </pokemon>
+
+    <pokemon generacio="I">
+        <nom>ELECTRODE</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/8/84/101Electrode.png/375px-101Electrode.png</imatge>
+        <numero>101</numero>
+        <conjunt_tipus>
+            <tipus>ELÈCTRIC</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>SOUNDPROOF</habilitat>
+            <habilitat>STATIC</habilitat>
+            <dream>AFTERMATH</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>60</HP>
+            <ATK>50</ATK>
+            <DEF>70</DEF>
+            <SPD>140</SPD>
+            <SATK>80</SATK>
+            <SDEF>80</SDEF>
+        </caracteristiques>
+        <experiencia>168</experiencia>
+        <velocitat>MITJANAMENT RÀPID</velocitat>        
+    </pokemon>
+
+    <pokemon generacio="I">
+        <nom>GYARADOS</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/4/41/130Gyarados.png/375px-130Gyarados.png</imatge>
+        <numero>130</numero>
+        <conjunt_tipus>
+            <tipus>AIGUA</tipus>
+            <tipus>VOLADOR</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>INTIMIDATE</habilitat>
+            <dream>MOXIE</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>95</HP>
+            <ATK>125</ATK>
+            <DEF>79</DEF>
+            <SPD>81</SPD>
+            <SATK>60</SATK>
+            <SDEF>100</SDEF>
+        </caracteristiques>
+        <experiencia>189</experiencia>
+        <velocitat>LENT</velocitat>       
+    </pokemon>
+  
+    <pokemon generacio="II">
+        <nom>MAREEP</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/6/6b/179Mareep.png/375px-179Mareep.png</imatge>
+        <numero>179</numero>
+        <conjunt_tipus>
+            <tipus>ELÈCTRIC</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>STATIC</habilitat>
+            <dream>PLUS</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>55</HP>
+            <ATK>40</ATK>
+            <DEF>40</DEF>
+            <SPD>35</SPD>
+            <SATK>65</SATK>
+            <SDEF>45</SDEF>
+        </caracteristiques>
+        <experiencia>56</experiencia>
+        <velocitat>MITJANAMENT LENT</velocitat>        
+    </pokemon>
+
+    <pokemon generacio="II">
+        <nom>SCIZOR</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/5/55/212Scizor.png/375px-212Scizor.png</imatge>
+        <numero>212</numero>
+        <conjunt_tipus>
+            <tipus>BESTIOLA</tipus>
+            <tipus>ACER</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>SWARM</habilitat>
+            <habilitat>TECHNICIAN</habilitat>
+            <dream>LIGHT METAL</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>70</HP>
+            <ATK>130</ATK>
+            <DEF>100</DEF>
+            <SPD>65</SPD>
+            <SATK>55</SATK>
+            <SDEF>80</SDEF>
+        </caracteristiques>
+        <experiencia>175</experiencia>
+        <velocitat>MITJANAMENT RÀPID</velocitat>       
+    </pokemon>
+
+    <pokemon generacio="II">
+        <nom>SNEASEL</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/7/71/215Sneasel.png/375px-215Sneasel.png</imatge>
+        <numero>215</numero>
+        <conjunt_tipus>
+            <tipus>SINISTRE</tipus>
+            <tipus>GEL</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>INNER FOCUS</habilitat>
+            <habilitat>KEEN EYE</habilitat>
+            <dream>PICKPOCKET</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>55</HP>
+            <ATK>95</ATK>
+            <DEF>55</DEF>
+            <SPD>115</SPD>
+            <SATK>35</SATK>
+            <SDEF>75</SDEF>
+        </caracteristiques>
+        <experiencia>86</experiencia>
+        <velocitat>MITJANAMENT LENT</velocitat>
+    </pokemon>
+
+    <pokemon generacio="II">
+        <nom>TYRANITAR</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/8/82/248Tyranitar.png/375px-248Tyranitar.png</imatge>
+        <numero>248</numero>
+        <conjunt_tipus>
+            <tipus>ROCA</tipus>
+            <tipus>SINISTRE</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>SAND STREAM</habilitat>
+            <dream>UNNERVE</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>100</HP>
+            <ATK>134</ATK>
+            <DEF>110</DEF>
+            <SPD>61</SPD>
+            <SATK>95</SATK>
+            <SDEF>100</SDEF>
+        </caracteristiques>
+        <experiencia>270</experiencia>
+        <velocitat>LENT</velocitat>        
+    </pokemon>
+
+    <pokemon generacio="III">
+        <nom>POOCHYENA</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/f/fc/261Poochyena.png/375px-261Poochyena.png</imatge>
+        <numero>261</numero>
+        <conjunt_tipus>
+            <tipus>SINISTRE</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>RUN AWAY</habilitat>
+            <habilitat>QUICK FEET</habilitat>
+            <dream>RATTLED</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>35</HP>
+            <ATK>55</ATK>
+            <DEF>35</DEF>
+            <SPD>35</SPD>
+            <SATK>30</SATK>
+            <SDEF>30</SDEF>
+        </caracteristiques>
+        <experiencia>44</experiencia>
+        <velocitat>MITJANAMENT RÀPID</velocitat>        
+    </pokemon>
+
+    <pokemon generacio="III">
+        <nom>SHARPEDO</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/a/a8/319Sharpedo.png/375px-319Sharpedo.png</imatge>
+        <numero>319</numero>
+        <conjunt_tipus>
+            <tipus>AIGUA</tipus>
+            <tipus>SINISTRE</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>ROUGH SKIN</habilitat>
+            <dream>SPEED BOOST</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>70</HP>
+            <ATK>120</ATK>
+            <DEF>40</DEF>
+            <SPD>95</SPD>
+            <SATK>95</SATK>
+            <SDEF>40</SDEF>
+        </caracteristiques>
+        <experiencia>161</experiencia>
+        <velocitat>LENT</velocitat>        
+    </pokemon>
+
+    <pokemon generacio="III">
+        <nom>FLYGON</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/f/f1/330Flygon.png/375px-330Flygon.png</imatge>
+        <numero>330</numero>
+        <conjunt_tipus>
+            <tipus>TERRA</tipus>
+            <tipus>DRAC</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>LEVITATE</habilitat>
+        </habilitats>
+        <caracteristiques>
+            <HP>80</HP>
+            <ATK>100</ATK>
+            <DEF>80</DEF>
+            <SPD>100</SPD>
+            <SATK>80</SATK>
+            <SDEF>80</SDEF>
+        </caracteristiques>
+        <experiencia>234</experiencia>
+        <velocitat>MITJANAMENT LENT</velocitat>       
+    </pokemon>
+
+    <pokemon generacio="III">
+        <nom>SALAMENCE</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/4/41/373Salamence.png/375px-373Salamence.png</imatge>
+        <numero>373</numero>
+        <conjunt_tipus>
+            <tipus>DRAC</tipus>
+            <tipus>VOLADOR</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>INTIMIDATE</habilitat>
+            <dream>MOXIE</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>95</HP>
+            <ATK>135</ATK>
+            <DEF>80</DEF>
+            <SPD>100</SPD>
+            <SATK>110</SATK>
+            <SDEF>80</SDEF>
+        </caracteristiques>
+        <experiencia>270</experiencia>
+        <velocitat>LENT</velocitat>        
+    </pokemon>
+
+    <pokemon generacio="III">
+        <nom>METAGROSS</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/0/05/376Metagross.png/375px-376Metagross.png</imatge>
+        <numero>376</numero>
+        <conjunt_tipus>
+            <tipus>ACER</tipus>
+            <tipus>PSÍQUIC</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>CLEAR BODY</habilitat>
+            <dream>LIGHT METAL</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>80</HP>
+            <ATK>135</ATK>
+            <DEF>130</DEF>
+            <SPD>70</SPD>
+            <SATK>95</SATK>
+            <SDEF>90</SDEF>
+        </caracteristiques>
+        <experiencia>270</experiencia>
+        <velocitat>LENT</velocitat>       
+    </pokemon>
+
+    <pokemon generacio="III">
+        <nom>LATIOS</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/5/52/381Latios.png/375px-381Latios.png</imatge>
+        <numero>381</numero>
+        <conjunt_tipus>
+            <tipus>DRAC</tipus>
+            <tipus>PSÍQUIC</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>LEVITATE</habilitat>
+        </habilitats>
+        <caracteristiques>
+            <HP>80</HP>
+            <ATK>90</ATK>
+            <DEF>80</DEF>
+            <SPD>110</SPD>
+            <SATK>130</SATK>
+            <SDEF>110</SDEF>
+        </caracteristiques>
+        <experiencia>270</experiencia>
+        <velocitat>LENT</velocitat>        
+    </pokemon>
+
+    <pokemon generacio="III">
+        <nom>RAYQUAZA</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/e/e4/384Rayquaza.png/375px-384Rayquaza.png</imatge>
+        <numero>384</numero>
+        <conjunt_tipus>
+            <tipus>DRAC</tipus>
+            <tipus>VOLADOR</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>AIR LOCK</habilitat>
+        </habilitats>
+        <caracteristiques>
+            <HP>105</HP>
+            <ATK>150</ATK>
+            <DEF>90</DEF>
+            <SPD>95</SPD>
+            <SATK>150</SATK>
+            <SDEF>90</SDEF>
+        </caracteristiques>
+        <experiencia>306</experiencia>
+        <velocitat>LENT</velocitat>       
+    </pokemon>
+
+    <pokemon generacio="IV">
+        <nom>YANMEGA</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/e/e6/469Yanmega.png/375px-469Yanmega.png</imatge>
+        <numero>469</numero>
+        <conjunt_tipus>
+            <tipus>BESTIOLA</tipus>
+            <tipus>VOLADOR</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>SPEED BOOST</habilitat>
+            <habilitat>TINTED LENSE</habilitat>
+            <dream>FRISK</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>86</HP>
+            <ATK>76</ATK>
+            <DEF>86</DEF>
+            <SPD>95</SPD>
+            <SATK>116</SATK>
+            <SDEF>56</SDEF>
+        </caracteristiques>
+        <experiencia>180</experiencia>
+        <velocitat>MITJANAMENT RÀPID</velocitat>        
+    </pokemon>
+
+    <pokemon generacio="IV">
+        <nom>HEAT ROTOM</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/6/68/HeatRotomDuel477.png</imatge>
+        <numero>479</numero>
+        <conjunt_tipus>
+            <tipus>ELÈCTRIC</tipus>
+            <tipus>FOC</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>LEVITATE</habilitat>
+        </habilitats>
+        <caracteristiques>
+            <HP>50</HP>
+            <ATK>50</ATK>
+            <DEF>77</DEF>
+            <SPD>91</SPD>
+            <SATK>105</SATK>
+            <SDEF>107</SDEF>
+        </caracteristiques>
+        <experiencia>154</experiencia>
+        <velocitat>MITJANAMENT RÀPID</velocitat>  
+    </pokemon>
+
+    <pokemon generacio="V">
+        <nom>EMOLGA</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/b/b4/587Emolga.png/375px-587Emolga.png</imatge>
+        <numero>587</numero>
+        <conjunt_tipus>
+            <tipus>ELÈCTRIC</tipus>
+            <tipus>VOLADOR</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>STATIC</habilitat>
+            <dream>MOTOR DRIVE</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>55</HP>
+            <ATK>75</ATK>
+            <DEF>60</DEF>
+            <SPD>103</SPD>
+            <SATK>75</SATK>
+            <SDEF>60</SDEF>
+        </caracteristiques>
+        <experiencia>150</experiencia>
+        <velocitat>MITJANAMENT RÀPID</velocitat>       
+    </pokemon>
+
+    <pokemon generacio="V">
+        <nom>GALVANTULA</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/7/7a/596Galvantula.png/375px-596Galvantula.png</imatge>
+        <numero>596</numero>
+        <conjunt_tipus>
+            <tipus>BESTIOLA</tipus>
+            <tipus>ELÈCTRIC</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>COMPOUNDEYES</habilitat>
+            <habilitat>UNNERVE</habilitat>
+            <dream>SWARM</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>70</HP>
+            <ATK>77</ATK>
+            <DEF>60</DEF>
+            <SPD>108</SPD>
+            <SATK>97</SATK>
+            <SDEF>60</SDEF>
+        </caracteristiques>
+        <experiencia>165</experiencia>
+        <velocitat>MITJANAMENT RÀPID</velocitat>        
+    </pokemon>
+
+    <pokemon generacio="V">
+        <nom>TYNAMO</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/5/5e/602Tynamo.png/375px-602Tynamo.png</imatge>
+        <numero>602</numero>
+        <conjunt_tipus>
+            <tipus>ELÈCTRIC</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>LEVITATE</habilitat>
+        </habilitats>
+        <caracteristiques>
+            <HP>35</HP>
+            <ATK>55</ATK>
+            <DEF>40</DEF>
+            <SPD>60</SPD>
+            <SATK>45</SATK>
+            <SDEF>40</SDEF>
+        </caracteristiques>
+        <experiencia>55</experiencia>
+        <velocitat>LENT</velocitat>        
+    </pokemon>
+
+    <pokemon generacio="V">
+        <nom>BISHARP</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/7/74/625Bisharp.png/375px-625Bisharp.png</imatge>
+        <numero>625</numero>
+        <conjunt_tipus>
+            <tipus>SINISTRE</tipus>
+            <tipus>ACER</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>DEFIANT</habilitat>
+            <habilitat>INNER FOCUS</habilitat>
+            <dream>PRESSURE</dream>
+        </habilitats>
+        <caracteristiques>
+            <HP>65</HP>
+            <ATK>125</ATK>
+            <DEF>100</DEF>
+            <SPD>70</SPD>
+            <SATK>60</SATK>
+            <SDEF>70</SDEF>
+        </caracteristiques>
+        <experiencia>172</experiencia>
+        <velocitat>MITJANAMENT RÀPID</velocitat>       
+    </pokemon>
+
+    <pokemon generacio="V">
+        <nom>HYDREIGON</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/3/3e/635Hydreigon.png/375px-635Hydreigon.png</imatge>
+        <numero>635</numero>
+        <conjunt_tipus>
+            <tipus>SINISTRE</tipus>
+            <tipus>DRAC</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>LEVITATE</habilitat>
+        </habilitats>
+        <caracteristiques>
+            <HP>92</HP>
+            <ATK>105</ATK>
+            <DEF>90</DEF>
+            <SPD>98</SPD>
+            <SATK>125</SATK>
+            <SDEF>90</SDEF>
+        </caracteristiques>
+        <experiencia>270</experiencia>
+        <velocitat>LENT</velocitat>       
+    </pokemon>
+
+    <pokemon generacio="V">
+        <nom>ZEKROM</nom>
+        <imatge>https://cdn2.bulbagarden.net/upload/thumb/8/81/644Zekrom.png/375px-644Zekrom.png</imatge>
+        <numero>644</numero>
+        <conjunt_tipus>
+            <tipus>DRAC</tipus>
+            <tipus>ELÈCTRIC</tipus>
+        </conjunt_tipus>
+        <habilitats>
+            <habilitat>TERAVOLT</habilitat>
+        </habilitats>
+        <caracteristiques>
+            <HP>100</HP>
+            <ATK>150</ATK>
+            <DEF>120</DEF>
+            <SPD>90</SPD>
+            <SATK>120</SATK>
+            <SDEF>100</SDEF>
+        </caracteristiques>
+        <experiencia>306</experiencia>
+        <velocitat>LENT</velocitat>        
+    </pokemon>
+
+</pokedex>

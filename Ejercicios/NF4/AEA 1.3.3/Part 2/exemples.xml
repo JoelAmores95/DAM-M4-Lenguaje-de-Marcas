@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exemples>
+    <instruccio>
+        <nom>Bucle FOR</nom>
+        <sintaxi>
+        for (intContador;condición;acciónTrasCadaCiclo){
+            /*Código a ejecutar en el bucle*/
+            }
+        </sintaxi>
+    </instruccio>
+    <instruccio>
+        <nom>Bucle WHILE</nom>
+        <sintaxi>
+            while (condición){
+                /*Código a ejecutar en el bucle*/
+            }
+        </sintaxi>
+    </instruccio>
+    <instruccio>
+        <nom>SWITCH</nom>
+        <sintaxi>
+            switch (variable){
+                case1: /*codigo*/;
+                break;
+                case2: /*codigo*/;
+                break
+                ...
+                caseN: /*codigo*/;
+                break;
+                default: /*codigo*/
+            }
+        </sintaxi>
+    </instruccio>
+</exemples>

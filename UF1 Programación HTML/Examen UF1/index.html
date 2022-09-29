@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>La Bella y la Bestia 2017</title>
+	<meta name="description" content="">
+	<meta charset="UTF-8"> <!--Cambio el ISO-8859-1 por UTF-8-->
+	<link rel="stylesheet" type="text/css" href="css/estils.css">
+</head>
+<body>
+
+	<div class="contenidor">
+
+		<header>
+			<div class="logo">
+				<img src="img/movies.png" width="150" alt="">
+			</div>
+
+			<nav> <!--Menu-->
+				<a href="#pelicula">Película</a>
+				<a href="#protagonistas">Protagonistas</a>
+				<a href="#fotografias">Fotografias</a>
+				<a href="#opinion">Opinión</a>
+			</nav>
+		</header>
+
+		<!--Pregunta 11 - Creo un contenedor extra-->
+		<div class="contenedorExamen">
+
+			<section class="main">
+				<article>
+					<a name="pelicula"></a>
+					<h2 class="titulo">La Bella y la Bestia</h2>
+					<p>Una joven soñadora y romántica llamada Bella, vive en una pequeña aldea junto a su padre, un inventor de artilugios, al que algunos consideran un anciano demente. Un día su padre se marcha a una feria para exponer sus inventos, pero se pierde en el camino y acaba en un grande y viejo castillo. Buscando cobijo y un lugar donde pasar la noche, el padre de Bella descubre que el señor de ese castillo es una horrible bestia. Cuando se percata de su presencia, la bestia le deja encerrado entre rejas. Bella, preocupada por su anciano padre, no duda ni un instante en salir en su busca. Cuando encuentra el castillo, Bella decidide hacer un intercambio, y quedarse encerrada a cambio de la libertad del anciano……………….</p>
+				</article>
+
+				<!--Pregunta 10 Caja fija de oferta-->
+				<article class="oferta">
+					<p>OFERTA: compra entrades!!</p>
+				</article>
+
+				<article>
+					<a name="protagonistas"></a>
+					<h2 class="titulo">Protagonistas</h2>
+					<table>
+						<tr>
+							<th>Personaje</th>
+							<th>Actor</th>
+						</tr>
+						<tr>
+							<td>Bella</td>
+							<td>Emma Watson</td>
+						</tr>
+						<tr>
+							<td>Bestia</td>
+							<td>Dan Stevens</td>
+						</tr>
+						<tr>
+							<td>Gaston</td>
+							<td>Luke Evans</td>
+						</tr>
+						<tr>
+							<td>Lumiere</td>
+							<td>Ewan McGregor</td>
+						</tr>
+						
+						<tr>
+							<td>Cogsworth</td>
+							<td>Ian McKellen</td>
+						</tr>
+						<tr>
+							<td>Cadenza</td>
+							<td>Stanley Tucci</td>
+						</tr>
+					</table>
+				</article>
+				<article>
+					<a name="opinion"></a>
+					<h2 class="titulo">Opinión</h2>
+					<form>
+						<label for="nombre" >Nombre:</label>
+						<input type="text" name="nombre" id="nombre" required maxlength="35">	<!--Pregunta 5 required y maxlength a 35 carácteres-->
+						<br><br>
+						<label for="correo">Correo electrónico:</label>
+						<input type="text" name="correo" id="correo" required> <!--Pregunta 5 required-->
+						<br><br>				
+						<label for="valoracion">Valoración:</label>
+						<select id="valoracion">
+						<option value="10">10</option>
+						<option value="9">9</option>
+						<option value="8">8</option>
+						<option value="7">7</option>
+						<option value="6">6</option>
+						<option value="5">5</option>
+						<option value="4">4</option>
+						<option value="3">3</option>
+						<option value="2">2</option>
+						<option value="1">1</option>
+						</select>
+						
+						<!--Pregunta 4- Incluir selección personaje favorito-->
+						<br><br>
+						<label for="personajeFav">Quin personatge t’agrada més?</label>
+						<input type="radio" value="Bella">Bella</input>
+						<input type="radio" value="Bestia">Bestia</input>
+						<input type="radio" value="Gaston">Gaston</option>
+
+						<br><br>
+						<label for="opinion">Opinión personal</label>
+						<!--Pregunta 6: Aparece mensaje y desaparece al escribir-->
+						<textarea id="opinion" name="opinion" cols="45"  placeholder="Sea sincera y coméntenos que le ha parecido"></textarea>
+						<br><br>
+						<input class="center" type="submit" value="Enviar">
+						
+					</form>
+				</article>
+				
+				
+			</section>
+			<aside>
+					<a name="fotografias"></a>
+					<div class="imagen">
+						<img src="img/img3.jpg" width="250px">
+
+					</div>
+				
+				
+					<div class="imagen">
+						<img src="img/img1.jpg" width="250px">
+					</div>
+			</aside>
+		
+		</div>
+
+		<footer>
+			<section class="links">
+				<a href="https://www.ecartelera.com/peliculas/la-bella-y-la-bestia-2017/">Cartelera</a>
+				<a href="https://es.wikipedia.org/wiki/La_bella_y_la_bestia_(pel%C3%ADcula_de_2017)" >Wikipedia</a>
+				<a href="https://www.youtube.com/watch?v=KN_H5WZsorE">Youtube</a>
+				<a href="http://www.fotogramas.es/Peliculas/La-bella-y-la-bestia-2017">Fotogramas</a>
+			</section>
+
+			<div class="social">
+				<a href="#">FB</a>
+				<a href="#">TW</a>
+			</div>
+		</footer>
+
+
+	</div>
+
+
+
+</body></html>

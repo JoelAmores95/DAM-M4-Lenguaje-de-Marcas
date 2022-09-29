@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:tv="https://showrss.info" version="2.0"> <!-- Aquesta línia indica la versió de RSS utilitzada, en aquest cas és la 2.0. És una línia molt important que ha d'estar sempre present -->
+
+    <channel> <!-- Aquesta etiqueta channel conté metadades importants-->
+
+        <title>showRSS feed: The Simpsons</title> <!-- Nom del RSS, es pot modificar-->
+        <link>https://showrss.info</link> <!-- URL principal de la web a la que correspon l'RSS -->
+        <ttl>30</ttl> <!-- PREGUNTA 4: Temps en minuts de cada quant va a mirar si hi ha actualitzacions, en aquest cas cada 30min -->
+        <description>showRSS show feed for The Simpsons</description> <!-- És una petita descripció de l'arxiu RSS-->
+
+        <item> <!-- Contingut d'una entrada, a mesura que van sortint noves actualitzacions s'afegeixen a dalt de tot -->
+            <title>The Simpsons 33x12 Pixelated and Afraid</title> <!-- Nom de la entrada-->
+            <!-- URL on està localitzada la nova entrada-->
+            <link>magnet:?xt=urn:btih:861AE0D2F479463588216BD7F546BB7E9A100187&dn=The+Simpsons+S33E12+WEBRip+x264+ION10&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2F9.rarbg.me%3A2960&tr=udp%3A%2F%2F9.rarbg.to%3A2980</link>
+            <guid isPermaLink="false">b4f4b3b1fc46695d77bdf58ab4b4e28c1228bd00</guid>
+            <pubDate>Mon, 28 Feb 2022 21:20:28 +0000</pubDate> <!-- Data quan va ser publicada-->
+            <!-- Descripció de la entrada-->
+            <description>New episode: The Simpsons S33E12 WEBRip x264 ION10. Link: <a href="magnet:?xt=urn:btih:861AE0D2F479463588216BD7F546BB7E9A100187&dn=The+Simpsons+S33E12+WEBRip+x264+ION10&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2F9.rarbg.me%3A2960&tr=udp%3A%2F%2F9.rarbg.to%3A2980">magnet:?xt=urn:btih:861AE0D2F479463588216BD7F546BB7E9A100187&dn=The+Simpsons+S33E12+WEBRip+x264+ION10&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2F9.rarbg.me%3A2960&tr=udp%3A%2F%2F9.rarbg.to%3A2980</a></description>
+            <tv:show_id>43</tv:show_id>
+            <tv:external_id>83</tv:external_id>
+            <tv:show_name>The Simpsons</tv:show_name>
+            <tv:episode_id>157933</tv:episode_id>
+            <tv:raw_title>The Simpsons S33E12 WEBRip x264 ION10</tv:raw_title>
+            <tv:info_hash>861AE0D2F479463588216BD7F546BB7E9A100187</tv:info_hash>
+            <enclosure url="magnet:?xt=urn:btih:861AE0D2F479463588216BD7F546BB7E9A100187&dn=The+Simpsons+S33E12+WEBRip+x264+ION10&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2F9.rarbg.me%3A2960&tr=udp%3A%2F%2F9.rarbg.to%3A2980" length="0" type="application/x-bittorrent"/>
+        </item>
+
+        <item> <!-- Entrada anterior a la de dalt-->
+            <title>The Simpsons 33x11 The Longest Marge</title>
+            <link>magnet:?xt=urn:btih:BF0E0D11C88F7544932FC07FCAEE626A41D8AD29&dn=The+Simpsons+S33E11+WEBRip+x264+ION10&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2F9.rarbg.me%3A2960&tr=udp%3A%2F%2F9.rarbg.to%3A2980</link>
+            <guid isPermaLink="false">906cf2d5101355878beb8b32455eff8878e037d9</guid>
+            <pubDate>Mon, 03 Jan 2022 19:20:15 +0000</pubDate>
+            <description>New episode: The Simpsons S33E11 WEBRip x264 ION10. Link: <a href="magnet:?xt=urn:btih:BF0E0D11C88F7544932FC07FCAEE626A41D8AD29&dn=The+Simpsons+S33E11+WEBRip+x264+ION10&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2F9.rarbg.me%3A2960&tr=udp%3A%2F%2F9.rarbg.to%3A2980">magnet:?xt=urn:btih:BF0E0D11C88F7544932FC07FCAEE626A41D8AD29&dn=The+Simpsons+S33E11+WEBRip+x264+ION10&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2F9.rarbg.me%3A2960&tr=udp%3A%2F%2F9.rarbg.to%3A2980</a></description>
+            <tv:show_id>43</tv:show_id>
+            <tv:external_id>83</tv:external_id>
+            <tv:show_name>The Simpsons</tv:show_name>
+            <tv:episode_id>154946</tv:episode_id>
+            <tv:raw_title>The Simpsons S33E11 WEBRip x264 ION10</tv:raw_title>
+            <tv:info_hash>BF0E0D11C88F7544932FC07FCAEE626A41D8AD29</tv:info_hash>
+            <enclosure url="magnet:?xt=urn:btih:BF0E0D11C88F7544932FC07FCAEE626A41D8AD29&dn=The+Simpsons+S33E11+WEBRip+x264+ION10&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2F9.rarbg.me%3A2960&tr=udp%3A%2F%2F9.rarbg.to%3A2980" length="0" type="application/x-bittorrent"/>
+        </item>
+        
+        <item> <!-- Entrada anterior a la de dalt-->
+            <title>The Simpsons 33x10 A Made Maggie</title>
+            <link>magnet:?xt=urn:btih:EE1EB542202056D9DD601B0120847D3F8EB3E7DA&dn=The+Simpsons+S33E10+WEBRip+x264+ION10&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2F9.rarbg.me%3A2960&tr=udp%3A%2F%2F9.rarbg.to%3A2980</link>
+            <guid isPermaLink="false">dd56402b829bbe96313a9acb2ec6d1b1a0a52da4</guid>
+            <pubDate>Tue, 21 Dec 2021 18:10:18 +0000</pubDate>
+            <description>New episode: The Simpsons S33E10 WEBRip x264 ION10. Link: <a href="magnet:?xt=urn:btih:EE1EB542202056D9DD601B0120847D3F8EB3E7DA&dn=The+Simpsons+S33E10+WEBRip+x264+ION10&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2F9.rarbg.me%3A2960&tr=udp%3A%2F%2F9.rarbg.to%3A2980">magnet:?xt=urn:btih:EE1EB542202056D9DD601B0120847D3F8EB3E7DA&dn=The+Simpsons+S33E10+WEBRip+x264+ION10&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2F9.rarbg.me%3A2960&tr=udp%3A%2F%2F9.rarbg.to%3A2980</a></description>
+            <tv:show_id>43</tv:show_id>
+            <tv:external_id>83</tv:external_id>
+            <tv:show_name>The Simpsons</tv:show_name>
+            <tv:episode_id>154489</tv:episode_id>
+            <tv:raw_title>The Simpsons S33E10 WEBRip x264 ION10</tv:raw_title>
+            <tv:info_hash>EE1EB542202056D9DD601B0120847D3F8EB3E7DA</tv:info_hash>
+            <enclosure url="magnet:?xt=urn:btih:EE1EB542202056D9DD601B0120847D3F8EB3E7DA&dn=The+Simpsons+S33E10+WEBRip+x264+ION10&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2F9.rarbg.me%3A2960&tr=udp%3A%2F%2F9.rarbg.to%3A2980" length="0" type="application/x-bittorrent"/>
+        </item>
+    </channel>
+</rss>

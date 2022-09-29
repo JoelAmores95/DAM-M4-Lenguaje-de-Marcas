@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Empresa nom="XXX" data_fundacio="2001-11-15">
+  <Delegacio nom="Central Barcelona" empleats="100">Text </Delegacio>
+  <Delegacio nom="Central Tarragona" empleats="25">Text </Delegacio>
+  <Delegacio nom="Lleida" empleats="13">
+  <Empleat>
+    <Nom>Joan Arbós</Nom>
+    <Carrec>Director delegació</Carrec>
+  </Empleat>
+  </Delegacio>
+</Empresa>

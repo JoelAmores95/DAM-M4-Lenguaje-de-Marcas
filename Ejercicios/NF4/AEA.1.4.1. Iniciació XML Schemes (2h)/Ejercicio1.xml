@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio1 Schema.xsd">
+    <web>www.webbiblioteca.com</web>
+    <llibre codi="1" ubicacio="prestatge 1">
+        <autor>Miguel Hernandez</autor>
+        <titol>Obra poètica completa</titol>
+    </llibre>
+    <llibre codi= "9999" ubicacio="prestatge 14">
+        <autor>Yo Mismo</autor>
+        <titol>El mejor título</titol>
+    </llibre>
+</biblioteca>

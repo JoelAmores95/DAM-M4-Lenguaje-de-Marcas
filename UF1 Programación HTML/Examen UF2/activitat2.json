@@ -1,0 +1,102 @@
+{
+    "factures":{
+        "factura":[
+            {
+                "dadesEmpresa":
+                    {
+                        "miEmpresa":"blabla S.A",
+                        "domicilio": "C/Palete, 26",
+                        "ciudad": "Reus",
+                        "NIF": "39213564X",
+                        "fecha": "10/Enero/2013",
+                        "numFactura": "493212"
+                    }  
+            },
+            {
+                "dadesClient":
+                    {
+                        "cliente":"Paco Merlo",
+                        "domicilio":"C/La Pau, 30",
+                        "ciudad": "Lleida",
+                        "tel": "612345721"
+                    }
+            },
+            {
+                "detallFactura":[
+                    {
+                        "lineaFactura":[
+                            {
+                                "codigo":"3654F",
+                                "articulo":"Cartucho de toner",
+                                "unidades": "5",
+                                "precioUn":"12,70€",
+                                "total": "63,50€"
+                            },
+                            {
+                                "codigo":"87776",
+                                "articulo":"Router WiFi",
+                                "unidades": "1",
+                                "precioUn":"68,85€",
+                                "total": "68,85€"
+                            },
+                            {
+                                "codigo":"77830P",
+                                "articulo":"Instalación",
+                                "unidades": "1",
+                                "precioUn":"25€",
+                                "total": "25€"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "dadesEmpresa":{
+                
+                    "miEmpresa":"lamesguay S.A",
+                    "domicilio": "C/bonviatge, 7",
+                    "ciudad": "Girona",
+                    "NIF": "31234564X",
+                    "fecha": "6/Julio/2018",
+                    "numFactura": "123456"
+                },
+                "dadesClient":
+                {
+                    "cliente":"Sara Mateo",
+                        "domicilio":"C/Alegria, 29",
+                        "ciudad": "Tortosa",
+                        "tel": "698345732"
+                    }
+            },
+            {
+                "detallFactura":[
+                    {
+                        "lineaFactura":[
+                            {
+                                "codigo":"3654F",
+                                "articulo":"Cartucho de toner",
+                                "unidades": "5",
+                                "precioUn":"12,70€",
+                                "total": "63,50€"
+                            },
+                            {
+                                "codigo":"87776",
+                                "articulo":"Router WiFi",
+                                "unidades": "1",
+                                "precioUn":"68,85€",
+                                "total": "68,85€"
+                            },
+                            {
+                                "codigo":"77830P",
+                                "articulo":"Instalación",
+                                "unidades": "1",
+                                "precioUn":"25€",
+                                "total": "25€"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

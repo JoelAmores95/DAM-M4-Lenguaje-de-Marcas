@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="estiloEjercicio01.css"?>
+
+<!--La finalidad de este ejercicio es atribuir un estilo a un XML-->
+
+<articulos>
+    <articulo>
+        <nombre>Sofá</nombre>
+        <precio>642</precio>
+    </articulo>
+    <articulo>
+        <nombre>Mesa</nombre>
+        <precio>305</precio>
+    </articulo>
+    <articulo>
+        <nombre>Lámpara</nombre>
+        <precio>89</precio>
+    </articulo>
+</articulos>

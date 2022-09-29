@@ -1,0 +1,17 @@
+<countries>
+   <country nom="Pakistan">
+      <idiomes>8</idiomes>
+   </country>
+   <country nom="Iran">
+      <idiomes>7</idiomes>
+   </country>
+   <country nom="Georgia">
+      <idiomes>4</idiomes>
+   </country>
+   <country nom="Macedonia">
+      <idiomes>4</idiomes>
+   </country>
+   <country nom="Switzerland">
+      <idiomes>4</idiomes>
+   </country>
+</countries>

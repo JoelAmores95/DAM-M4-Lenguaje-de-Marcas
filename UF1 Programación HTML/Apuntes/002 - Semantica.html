@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>UF1 - Semántica</title>
+        <link rel="stylesheet" href="000 - index.css">
+    </head>
+    <body>
+        <button><a href="000 - index.html">Volver al índice</a></button>
+        <h1>Semántica de la web</h1>
+        <h2 id="parrafos">Párrafos</h2>
+        <p>Los párrafos se han explicado <a href="001 - Hola Mundo.html#parrafos">aquí</a></p>
+
+        <h2>Negrita y cursiva</h2>
+        <p>Para poner una palabra en <strong>negrita</strong> se usa la etiqueta "strong". 
+            <br>Las <em>cursivas</em> son más simples, usan la etiqueta "em" de <em>emphasized</em>.
+        </p>
+
+        <h2 id="mark">Mark</h2>
+        <p>Para destacar <mark>una parte</mark> de un texto se usa < mark></ mark> y luego se puede editar en css.</p>
+
+        <h2 id="enlaces">Enlaces</h2> 
+        <p>Los enlaces usan el elemento "a" con el atributo "href" + la dirección a donde llevan. 
+            <br>Puede ser local o externo. 
+            <br>Al ser visual se edita en .css
+        </p>
+
+        <h2 id="contacto">Contacto</h2>   
+        <p>"address" sirve para poner datos de contacto como correo electrónico. <br>algo así: <address>joel.amores95@gmail.com</address></p>
+        <h2>Tiempo</h2>
+        <p>Se usa la etiqueta "time". Sirve para la organización de los bots. Los formatos correctos están <a href="https://www.w3schools.com/tags/tag_time.asp">aquí</a>.
+        <br>Por ejemplo: Tengo una cita el <time datetime="2022-02-14">día de San Valentín</time>
+        <br>Puedo poner fecha y hora, pero se separa usando "T" <time datetime="2014-12-31 T 18:55:47" > 2014.12.31 18:55:47 </time>
+        </p>
+
+        <h2 id="codigo">Cómo poner código</h2>
+        <p><pre>Texto pre formatado usando pre.
+            if (is_single ()) {
+                $ Categories = get_the_category ();
+                // 1 category = show recursion, more = show all, no recursion
+                if (count ($ categories) <= 1) {
+                    $ Cat = array_shift ($ categories);
+                    $ List. = Sprintf ($ template, get_category_link ($
+            CAT-> cat_ID), $ CAT-> cat_name);
+                } Else {
+                    foreach ($ categories es $ cat) {
+                        $ Cat = array_shift ($ categories);
+                        $ List. = Sprintf ($ template,
+            get_category_link ($ CAT-> cat_ID), $ CAT-> cat_name);
+                    }
+                }
+                $ List. = Sprintf ($ template, get_permalink (), get_the_title
+                (get_the_id ()));
+
+                return sprintf ($ html, $ list);
+                }                
+            </pre>
+        </p>
+        <p>Destaco una parte del código, solo una linea eh. <code>$var = new Class();</code></p>
+        <p>También existe una, que no se usa demasiado, pero existe <kbd>CRTL+C</kbd> para copiar y <kbd>CTRL+V</kbd> para pegar</p>
+
+        <h2 id="citar">Citaciones</h2>
+        <p>Cuando queremos hacer referencia a una publicación externa usamos <code>< cite>texto a citar< /cite></code>
+        <br><Cite> L'Odissea </cite> fue escrita por Homero
+            Acabo de trobar alguna cosa sobre l'abdicació del Rei, la seva
+            referència és <cite> ISBN 13: 978-84-617-0726-3 </cite></p>
+        <p>Para <strong>parafrasear</strong> algo con las mismas <strong> palabras exactas </strong>se usa < q></ q>. Añade comillas automáticamente.
+        <br><Q> To be or not to be, that is the question </q> </p>
+        <p>Cuando cogemos texto de otra fuente se usa el < blockquote></ blockquote>. Alguna noticia por ejemplo.</p>
+
+        <h2 id="abreviatura">Abreviaturas</h2>
+        <p>Simple, cuando se usa a una abreviatura. <strong>USAR CON TITLE para entender qué significa.</strong>
+        <br><abbr title="Estados Unidos">EEUU</abbr></p>
+
+        <h2 id="subindexSuperindex">Subíndex y Superíndex</h2>
+        <p>H<sub>2</sub>O = AGUAAAAH
+        <br>Mi sueldo: 10<sup>6</sup>€</p>
+        
+        <h2 id="listas">Listas</h2>
+        <p>Las famosas listas. Hay dos tipos: Ordenadas, con número (< ol></ ol>) y desordenadas, con símbolos (< ul></ ul>)
+        <br>Los elementos de la lista son con < li></ li>.
+        <br>Se puede elegir el número de inicio usando el atributo start="numInicio".
+        <br>Se puede hacer listas de listas (Listas anidadas)
+    </p>
+    <h2 id="barraDeProgreso">Barra de progreso</h2>
+    <p>Super guay, se establecen los parámetros min="x" max="y" y value"z".
+    <br><meter min="0" max="10" value="0"></meter>
+    <br><meter min="0" max="10" value="5"></meter>
+    <br><meter min="0" max="10" value="10"></meter>
+    <br>Puede ser de algo predeterminado o de algo que no, como el estado de una descarga.
+    <br>Para ello:
+    <br><code><section>
+        <p>Progress: <progress id="p"
+        max=100><span>0</span>%</progress></p>
+        <script>
+        var progressBar = document.getElementById('p');
+        function updateProgress(newValue) {
+        progressBar.value = newValue;
+        progressBar.getElementsByTagName('span')[0].textContent =
+        newValue;
+        } </script>
+        </section>
+        </code>
+    </p>
+    </body>
+    <footer>
+        <button><a href="001 - Hola Mundo.html">Página anterior</a></button>
+        <button><a href="004 - Tablas.html">Siguiente página</a></button>
+    </footer>
+</html>

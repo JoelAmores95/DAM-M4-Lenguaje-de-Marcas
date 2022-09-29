@@ -1,0 +1,11 @@
+<?xml version="1.0"> 
+<movies>
+    <movie>
+        <title>Casablanca</title>
+        <director>Michael Curtiz</director>
+        <actors>
+            <actor>Humphrey Bogart</actor>
+        </actors>
+    </movie>
+    <movie> ... </movie>
+</movies>

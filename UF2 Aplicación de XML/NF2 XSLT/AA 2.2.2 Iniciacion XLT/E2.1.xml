@@ -1,0 +1,50 @@
+  <country name="American Samoa" population="59566" area="199"/>
+  <country name="Andorra" population="72766" area="450"/>
+  <country name="Antigua and Barbuda" population="65647" area="440">
+    <language percentage="100">English</language>
+  </country>
+
+  <country name="Aruba" population="67794" area="193"/>
+
+  <country name="Bermuda" population="62099" area="50">
+    <language percentage="100">English</language>
+  </country>
+  <country name="Cayman Islands" population="34646" area="260">
+    <language percentage="100">English</language>
+  </country>
+  <country name="Dominica" population="82926" area="750"/>
+
+  <country name="Faroe Islands" population="43857" area="1400"/>
+
+  <country name="Gibraltar" population="28765" area="6.5"/>
+  
+  <country name="Greenland" population="58203" area="2175600"/>
+  <country name="Grenada" population="94961" area="340"/>
+ 
+  <country name="Guernsey" population="62920" area="194"/>
+    
+  <country name="Jersey" population="87848" area="117"/>
+    
+  <country name="Kiribati" population="80919" area="717"/>
+    
+  <country name="Liechtenstein" population="31122" area="160"/>
+    
+  <country name="Man" population="73837" area="588"/>
+  <country name="Marshall Islands" population="58363" area="181.3"/>
+    
+  <country name="Monaco" population="31719" area="1.9"/>
+    
+  <country name="Northern Mariana Islands" population="52284" area="477"/>
+    
+  <country name="Saint Kitts and Nevis" population="41369" area="269">
+    <language percentage="100">English</language>
+  </country>
+    
+  <country name="San Marino" population="24521" area="60">
+    <language percentage="100">Italian</language>
+  </country>
+  
+  <country name="Seychelles" population="77575" area="455"/>
+    
+  <country name="Virgin Islands" population="97120" area="352"/>
+  

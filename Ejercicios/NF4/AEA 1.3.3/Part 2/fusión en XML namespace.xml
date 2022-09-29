@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documentacion>
+    <exemples>
+        <e:instruccio xmlns:e="http://www.exemple.com">
+            <e:nom>Bucle FOR</e:nom>
+            <e:sintaxi>
+            for (intContador;condición;acciónTrasCadaCiclo){
+                /*Código a ejecutar en el bucle*/
+                }
+            </e:sintaxi>
+        </e:instruccio>
+        <e:instruccio>
+            <e:nom>Bucle WHILE</e:nom>
+            <e:sintaxi>
+                while (condición){
+                    /*Código a ejecutar en el bucle*/
+                }
+            </e:sintaxi>
+        </e:instruccio>
+        <e:instruccio>
+            <e:nom>SWITCH</e:nom>
+            <e:sintaxi>
+                switch (variable){
+                    case1: /*codigo*/;
+                    break;
+                    case2: /*codigo*/;
+                    break
+                    ...
+                    caseN: /*codigo*/;
+                    break;
+                    default: /*codigo*/
+                }
+            </e:sintaxi>
+        </e:instruccio>
+    </exemples>
+    <programes>
+        <p:instruccio xmlns:p="http://programes.com">
+            <p:nom>Dibujar pirámide</p:nom>
+            <p:id>001</p:id>
+            <p:edat_recomanada>8</p:edat_recomanada>
+        </p:instruccio>
+        <p:instruccio>
+            <p:nom>Inscribir participantes</p:nom>
+            <p:id>002</p:id>
+            <p:edat_recomanada>18</p:edat_recomanada>
+        </p:instruccio>
+        <p:instruccio>
+            <p:nom>Suprimir suspendidos</p:nom>
+            <p:id>003</p:id>
+            <p:edat_recomanada>18</p:edat_recomanada>
+        </p:instruccio>
+    </programes>
+</documentacion>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<monitors>
+        <monitor type="LED" modelNo="S22C300HS">
+            <brand>Samsung</brand>
+            <size>21.5</size>
+            <ratio>16:9</ratio>
+            <maxresolution>1920x1080</maxresolution>
+            <launchDate>2011-01-01</launchDate>
+            <feature>Ultrafast 5ms response time</feature>
+            <feature>VGA and HDMI inputs</feature>
+            <price>140</price>
+        </monitor>
+        <monitor type="LEDHD" modelNo="U2713HM">
+            <brand>Dell</brand>
+            <size>27</size>
+            <ratio>16:9</ratio>
+            <maxresolution>2560x1440</maxresolution>
+            <launchDate>2013-09-01</launchDate>
+            <feature>VGA, HDMI and DVI-D with HDCP inputs</feature>
+        <price>639</price>
+    </monitor>
+</monitors>

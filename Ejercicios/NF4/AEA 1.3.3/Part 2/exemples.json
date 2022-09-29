@@ -1,0 +1,34 @@
+{
+  "exemples": {
+    "instruccio": [
+      {
+        "nom": "Bucle FOR",
+        "sintaxi": ["for (intContador; condicion; accionTrasCadaCiclo){",
+                        "Codigo a ejecutar en el bucle",
+                      "}"
+                    ]
+      },
+      {
+        "nom": "Bucle WHILE",
+        "sintaxi": ["while (condicion){",
+                            "Codigo a ejecutar en el bucle",
+                      "}"
+                    ]
+      },
+      {
+        "nom": "SWITCH",
+        "sintaxi": ["switch (variable){",
+                          "case1: codigo;",
+                          "break;",
+                          "case2: codigo;",
+                          "break;",
+                          "...",
+                          "caseN: codigo;",
+                          "break;",
+                          "default: codigo",
+                      "}"
+                    ]
+      }
+    ]
+  }
+}

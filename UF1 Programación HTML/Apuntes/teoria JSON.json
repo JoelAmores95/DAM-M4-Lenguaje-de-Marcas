@@ -1,0 +1,16 @@
+{ 
+    "soyUnElementoPrincipal":{
+        "elementoConMasElementos":[
+            {
+            "datoGuardado": "Siempre abre con una llave",
+            "apellido": "Aquí hay un elemento que guarda más de un elemento, por eso tiene claudátor, para separar los elementos",
+            "funcion": "es fácil de entender"
+            },
+            {
+            "datoGuardado": "Entre cada elemento pongo , para separarlos",
+            "apellido": "Se puede convertir de XML-JSON en https://www.freeformatter.com/xml-to-json-converter.html",
+            "funcion": "Cierra con llave"
+            }
+        ]
+    }
+}

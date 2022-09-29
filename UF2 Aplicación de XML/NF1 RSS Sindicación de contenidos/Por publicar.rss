@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"> <!-- Aquesta línia indica la versió de RSS utilitzada, en aquest cas és la 2.0. És una línia molt important que ha d'estar sempre present -->
+
+    <channel> <!-- Aquesta etiqueta channel conté metadades importants-->
+    
+        <title>showRSS schedule feed</title> <!-- Nom del RSS, es pot modificar-->
+        <link>https://showrss.info</link> <!-- URL principal de la web a la que correspon l'RSS -->
+        <ttl>60</ttl> <!-- PREGUNTA 4: Temps en segons de cada quant va a mirar si hi ha actualitzacions, en aquest cas cada 60s -->
+        <description>showRSS schedule feed</description> <!-- És una petita descripció de l'arxiu RSS-->
+
+        <item> <!-- Contingut d'una entrada, a mesura que van sortint noves actualitzacions s'afegeixen a sota de tot -->
+            <title>The Simpsons 33x13</title> <!-- Nom de la entrada-->
+            <link>http://www.tvmaze.com/episodes/2274806/episode</link> <!-- URL on està localitzada la nova entrada-->
+            <guid isPermaLink="false">2274806</guid>
+            <pubDate>Mon, 07 Mar 2022 02:00:00 +0000</pubDate> <!-- Data quan va ser publicada-->
+            <description>The Simpsons 33x13 Boyz N The Highlands airs on Sunday 6th, March 2022</description> <!-- Descripció de la entrada-->
+        </item>
+        <item> <!-- Entrada posterior a la de dalt-->
+            <title>The Simpsons 33x14</title>
+            <link>http://www.tvmaze.com/episodes/2279038/episode</link>
+            <guid isPermaLink="false">2279038</guid>
+            <pubDate>Mon, 14 Mar 2022 02:00:00 +0000</pubDate>
+            <description>The Simpsons 33x14 You Won't Believe What This Episode is About - Act Three Will Shock You! airs on Sunday 13th, March 2022</description>
+        </item>
+        <item> <!-- Entrada posterior a la de dalt-->
+            <title>The Simpsons 33x15</title>
+            <link>http://www.tvmaze.com/episodes/2285305/episode</link>
+            <guid isPermaLink="false">2285305</guid>
+            <pubDate>Mon, 21 Mar 2022 02:00:00 +0000</pubDate>
+            <description>The Simpsons 33x15 Bart the Cool Kid airs on Sunday 20th, March 2022</description>
+        </item>
+    </channel>
+</rss>

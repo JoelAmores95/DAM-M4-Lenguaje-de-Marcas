@@ -1,0 +1,33 @@
+/*Diseñado por Joel Amores DAM1*/
+
+:link {color: beige;} /* Los enlaces no visitados tienen este color*/
+:visited {color: gray;} /* Los enlaces visitados tienen este color*/
+:hover {color: white;} /*Resalta el link con el color blanco al pasar el ratón por encima*/
+
+h1 {text-decoration: underline; text-shadow:10px 5px 5px violet ;} /*Los títulos van subrallados y con sombra */
+body {background-image: url(FondoPantalla.jpg); background-position: bottom right; background-repeat: no-repeat;
+    background-color: midnightblue;color: azure; text-align: center;} /*Añado un fondo de pantalla al final de la pagina a la derecha, sin repetir. */
+    /*El fondo es azul, el texto blanco y se sitúa centrado */
+
+ol,li {list-style-type: square;} /*La lista usa cuadrados */
+
+table {border: white;} /*El borde de la tabla es blanco */
+td,th {border: 1px solid #999; border-radius: 25px; box-shadow: 5px 2.5px 2.5px black; padding: 0.5cm;} /* Hay separación entre las celdas, los bordes son redondos y cada celda tiene sombreado*/
+th:hover,td:hover{transform: scale(1.5,1.5); /*Aumenta el tamaño de la casilla al pasar el ratón por encima*/
+    -ms-transform: scale(1.5,1.5); /* IE 9 */
+    -webkit-transform: scale(1.5,1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5,1.5); /* Opera */
+    -moz-transform: scale(1.5,1.5); /* Firefox */} 
+
+th:active,td:active{color: blue;} /*Cambia el color del texto a azul mientras se hace click sobre la casilla*/
+
+/*Diseño de clases e identificadores*/
+.dia { font-family: sans-serif; text-decoration: underline; background-color: gray;} /* Los días (fila)*/
+.Hora {background-color:blanchedalmond; color: black; } /* Las horas (columna)*/
+#M1 {background-color:cornflowerblue; font-family: 'Courier New', Courier, monospace;} /*Celda*/
+#M2 {background-color:skyblue;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}/*Celda*/
+#M3 {background-color:orange;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}/*Celda*/
+#M4 {background-color: darkred;font-family: Arial, Helvetica, sans-serif;}/*Celda*/
+#FOL {background-color: yellowgreen;font-family: Verdana, Geneva, Tahoma, sans-serif;}/*Celda*/
+#Tutoria {background-color: violet;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}/*Celda*/
+#Festa {background-color: gold;font-variant: small-caps;}/*Celda*/

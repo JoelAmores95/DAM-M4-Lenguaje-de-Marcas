@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<caracteres_epeciales> <!--Se usa un & y acaba en ;-->
+    <menor_que>&lt; less than(lt)</menor_que>
+    <mayor_que>&gt; greater than(gt)</mayor_que>
+    <comillas_dobles>&quot; quotation mark(quot)</comillas_dobles>
+    <comilla_simple>&apos; apostrophe(apos)</comilla_simple>
+    <ampersand>&amp; ampersand(amp)</ampersand>
+    <euro>€</euro>
+</caracteres_epeciales>

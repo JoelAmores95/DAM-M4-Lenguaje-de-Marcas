@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!--a) Determina els elements i atributs existents en el següent fitxer XML:
+
+<cotxes> - element
+    <nous> - element
+        <cotxe marca="seat" model="ibiza" color="blau">T-8976-AW</cotxe> - element, atribut, atribut, atribut
+        <cotxe marca="opel" model="corsa" color="blanc">Sense Matricular</cotxe> - element, atribut, atribut, atribut
+    </nous>
+    <usats> - element
+        <cotxe marca="renault" model="megane" color="gris">1111BCC</cotxe> - element - atribut, atribut, atribut
+        <cotxe marca="opel" model="corsa" color="blanc">9344BDF</cotxe> - element - atribut, atribut, atribut
+    </usats>
+</cotxes>
+
+b) En l'apartat anterior haguéssim pogut creat un atribut anomenat "usat" de tipus booleà dins de l'element cotxe que indiqués si el cotxe era nou o de segona mà? 
+Quin avantatge/inconvenient presentaria en front de l'exemple original? 
+- Necesita menos espacio y todo se guarda dentro del elemento
+
+Quan triarem una opció o una altra? 
+- Segun conveniencia
+
+Readapta el codi per a aquesta segona opció.-->
+
+<cotxes>
+    <cotxe estat="nou">>T-8976-AW</cotxe> 
+        <marca>seat</marca>
+        <model>ibiza</model>
+        <color>blau</color>
+    <cotxe estat="nou">Sense Matricular</cotxe>
+        <marca>opel</marca>
+        <model>corsa</model>
+        <color>blanc</color>
+    <cotxe estat="usat">1111BCC</cotxe>
+        <marca>renault</marca>
+        <model>megane</model>
+        <color>gris</color>
+    <cotxe estat="usat">9344BDF</cotxe>
+        <marca>opel</marca>
+        <model>corsa</model>
+        <color>blanc</color>
+</cotxes>
+
+<!-- c) Readapta el codi perquè no hi hagi atributs.-->
+<cotxes>
+    <nous>
+        <cotxe>>T-8976-AW</cotxe> 
+            <marca>seat</marca>
+            <model>ibiza</model>
+            <color>blau</color>
+        <cotxe>Sense Matricular</cotxe>
+            <marca>opel</marca>
+            <model>corsa</model>
+            <color>blanc</color>
+    </nous>
+    <usats>
+        <cotxe>1111BCC</cotxe>
+            <marca>renault</marca>
+            <model>megane</model>
+            <color>gris</color>
+        <cotxe>9344BDF</cotxe>
+            <marca>opel</marca>
+            <model>corsa</model>
+            <color>blanc</color>
+    </usats>
+</cotxes>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> AEA 1.1.3 HTML Joel Amores</title>
+		<h1>Inscripció a les jornades IBC Developers Conference</h1>
+	</head>
+	<body>
+		<!--Inicio formulario-->
+		<section>
+			<form>
+				<!--Primer campo-->
+				<fieldset><legend>Crear compte</legend>
+		
+					<p><label for="nom">Nom: 
+						</label><input type= "text" id="nom" name="nom" placeholder="Escriu el teu nom" autofocus required></p>
+					<p><label for="cognoms"> Cognoms:
+						</label> <input type="text" id="cognoms" name="cognoms" placeholder="Escriu els teus cognoms" required></p>
+					<p><label for="NIF"> NIF: 
+						</label> <input type="text" id="NIF" name="NIF" placeholder="NIF/NIE" pattern="[0-9]{8}[A-Za-z]{1}"required></p>
+					<p><label for="dataNaixament"> Data Naixament: 
+						</label> <input type="date" id="dataNaixament" placeholder="dataNaixament"></p>
+					<p>Gènere:
+						<label for="male">Home</label><input type="radio" name="gender" id="male" value="home">&nbsp;
+						<label for="female">Dona</label><input type="radio" name="gender" id="female" value="dona">&nbsp;
+						<label for="other">No binari</label><input type="radio" name="gender" id="other" value="nobinari">
+					</p>
+					<p><label for="adreça">Adreça:
+						</label> <input type="text" id="adreça" placeholder="Adreça"></p>
+					<p><label for="telefon">Telèfon:
+						</label> <input type="tel" name="telefon" id="telefon" placeholder="Telèfon"></p>
+					<p><label for="email">Correu electrònic:
+						</label><input type="email" id="email" placeholder="Escriu el teu correu electrònic"></p>
+					<p><label for="adreçaWeb">Adreça web:
+						</label> <input type="url" id="adreçaWeb" placeholder="Escriu la teva adreça web"></p>
+				</fieldset>
+				
+				<!--Segundo campo -->
+				<fieldset><legend>Dades de la inscripció</legend>
+		
+					<table border=1>
+					<colgroup>
+					<!--No añadimos formato de momento, queda pendiente-->
+					</colgroup>
+						<thead> <!--Titulo tabla-->
+							<tr>
+								<th>Horari</th>
+								<th>Dilluns</th>
+								<th>Dimarts</th>
+								<th>Dimecres</th>
+								<th>Dijous</th>
+								<th>Divendres</th>
+							</tr>
+						</thead>
+						<tbody>
+						<tr> <!--Contenido de la tabla, primera fila-->
+							<td>8:30-9:30</td>
+							<td rowspan=2>PHP</td> <!--Expande hacia abajo-->
+							<td rowspan=2>HTML</td>
+							<td colspan=2>PHYTON</td> <!--Expande hacia el lado-->
+							<td rowspan=4>RUBY</td>
+						</tr>
+						<tr> <!--Contenido de la tabla, segunda fila-->
+							<td>9:30-10:30</td>
+							<td>HTML</td>
+							<td rowspan=2>SQL</td>
+						</tr>
+						<tr> <!--Contenido de la tabla, tercera fila-->
+							<td>10:45-11:45</td>
+							<td rowspan=2>SQL</td>
+							<td rowspan=2>JAVA</td>
+							<td rowspan=2>JAVA</td>
+						</tr>
+						<tr> <!--Contenido de la tabla, cuarta fila-->
+							<td>11:45-12:45</td>
+							<td rowspan=2>PHP</td>
+						</tr>
+						<tr> <!--Contenido de la tabla, penúltima fila-->
+							<td>13:00-14:00</td>
+							<td rowspan=2>JAVA</td>
+							<td rowspan=2 colspan=2>RUBY</td>
+							<td rowspan=2>SQL</td>
+						</tr>
+						<tr> <!--Contenido de la tabla, última fila-->
+							<td>14:00-15:00</td>
+							<td>JAVASCRIPT</td>
+						</tr>
+						</tbody>
+					</table>
+					
+					<!--Lista dia inscripción-->
+					<p>
+					<label for="diaInscrit">Dia al que vols apuntar-te:</label>
+					  <select name ="dia" id="diaInscrit">
+						  <option value="Dilluns">Dilluns</option>
+						  <option value="Dimarts">Dimarts</option>
+						  <option value="Dimecres">Dimecres</option>
+						  <option value="Dijous">Dijous</option>
+						  <option value="Divendres">Divendres</option>
+					  </select>
+					</p>
+					
+				<!--Checkbox lenguajes dominados-->
+				<p>Indica quins d'aquests llenguatges domines:</p>
+				<input type="checkbox" name="lleguatgeDominat">PHP
+				<input type="checkbox" name="lleguatgeDominat">Java
+				<input type="checkbox" name="lleguatgeDominat">Phyton
+				<input type="checkbox" name="lleguatgeDominat">SQL
+				<input type="checkbox" name="lleguatgeDominat">JAVASCRIPT
+				<input type="checkbox" name="lleguatgeDominat">HTML
+				<input type="checkbox" name="lleguatgeDominat">RUBY
+				
+				</fieldset>
+				<!--Botón con imagen-->
+				<button>
+					<img src="https://images.vexels.com/media/users/3/141173/isolated/lists/f467b00adbe30d2735d0f9fac0497f93-enviar-boton-gris.png">
+				</button>
+			</form>
+		</section>
+	</body>
+	<footer>
+		<p>Joel Amores DAM1m</p>
+	</footer>
+</html>

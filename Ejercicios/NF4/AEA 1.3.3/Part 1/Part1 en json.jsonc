@@ -1,0 +1,32 @@
+/*AA.1.3.3. XML vs JSON Joel Amores 1r DAMm*/
+
+{"Personajes":
+    [
+        {"Tanques":
+            [
+                {"Clase":"Paladin","HP_Base": 11000,"DEF_Base": 800,"Resistencia_Base": 50, "ATQ_Base":500},
+                {"Clase":"Caballero Oscuro","HP_Base": 13000,"DEF_Base": 750,"Resistencia_Base": 30,"ATQ_Base":500}
+            ]
+        },
+        {"Apoyo":
+            [
+                {"Clase":"Sanador","HP_Base": 6000,"DEF_Base": 400,"Resistencia_Base": 80, "ATQ_Base": 300},
+                {"Clase":"Brujo","HP_Base":6000,"DEF_Base":400,"Resistencia_Base":80,"ATQ_Base":300}
+            ]
+        },
+        {"Atacantes":
+            [
+                {"Clase":"Mago","HP_Base": 7000,"DEF_Base": 450,"Resistencia_Base": 80,"ATQ_Base": 300},
+                {"Clase":"Guerrero","HP_Base": 8000,"DEF_Base":600,"Resistencia_Base":30,"ATQ_Base": 900}
+            ]
+        },
+        {"Animales":
+            [
+                {"Nombre":"Tigre", "Rol_Compatible":"Brujo"},
+                {"Nombre":"Pegaso","Rol_Compatible":"Paladin"},
+                {"Nombre":"Rinoceronte","Rol_Compatible":"Caballero Oscuro"},
+                {"Nombre":"Dríada", "Rol_Compatible":"Sanador"}
+            ]
+        }
+    ]
+}

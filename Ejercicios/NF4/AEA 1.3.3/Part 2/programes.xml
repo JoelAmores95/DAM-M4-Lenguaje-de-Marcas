@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<programes>
+    <instruccio>
+        <nom>Dibujar pirámide</nom>
+        <id>001</id>
+        <edat_recomanada>8</edat_recomanada>
+    </instruccio>
+    <instruccio>
+        <nom>Inscribir participantes</nom>
+        <id>002</id>
+        <edat_recomanada>18</edat_recomanada>
+    </instruccio>
+    <instruccio>
+        <nom>Suprimir suspendidos</nom>
+        <id>003</id>
+        <edat_recomanada>18</edat_recomanada>
+    </instruccio>
+</programes>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartellera>
+    <pelicula>
+        <titol>AQUELLES FESTES UNIVERSITÀRIES</titol>
+        <titolOriginal>Old School</titolOriginal>
+        <pais>EUA</pais>
+        <any>2003</any>
+        <durada>93min</durada>
+        <director>Todd Philips</director>
+        <interpret>Will Ferrell</interpret>
+        <interpret>Luke Wilson</interpret>
+        <interpret>Vince Vaughn</interpret>
+        <web>http://www.oldschool-themovie.com/</web>
+    </pelicula>
+    <pelicula>
+        <titol>8 apellidos vascos</titol>
+        <pais>Espanya</pais> 
+        <any>2008</any>
+        <durada>105min</durada>
+        <director>Director Pelicula</director>
+        <interpret>Carmen Machi</interpret>
+        <interpret>Dani Rovira</interpret>
+        <interpret>Clara Lago</interpret>
+        <web>http://www.8apellidosvascos.com/</web>
+    </pelicula>
+    <pelicula>
+        <titol>Los vengadores</titol>
+        <titolOriginal>Avengers</titolOriginal>
+        <pais>EUA</pais>
+        <any>2003</any>
+        <durada>168min</durada>
+        <director>Todd Philips</director>
+        <interpret>Tom Holland</interpret>
+        <interpret>Robert Downey Jr.</interpret>
+        <interpret>Scarlett Johannson</interpret>
+    </pelicula>
+</cartellera>

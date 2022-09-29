@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona SYSTEM "persona.dtd">
+<?xml-stylesheet href="persona.css" type="text/css"?>
+<persona>
+  <nom>Carla</nom>
+  <cognoms>
+    <primercognom>Gómez</primercognom>
+    <segoncognom>Sànchez</segoncognom>
+  </cognoms>
+  <professio>programadora</professio>
+  <professio>matemàtica</professio>
+  <professio>escriptora</professio>
+</persona>
